@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.beyondsemi.config.ba.elf.exe.debug.329046508">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.beyondsemi.config.ba.elf.exe.debug.329046508" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.beyondsemi.base.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=com.beyondsemi.base.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.beyondsemi.config.ba.elf.exe.debug.329046508" name="Debug" parent="com.beyondsemi.config.ba.elf.exe.debug" postbuildStep="ba-elf-objcopy -O verilog ba22-pic.elf ba22-pic.verilog">
+					<folderInfo id="com.beyondsemi.config.ba.elf.exe.debug.329046508." name="/" resourcePath="">
+						<toolChain id="com.beyondsemi.toolchain.gnu.ba.elf.exe.debug.1797868888" name="BA ELF GNU toolchain" superClass="com.beyondsemi.toolchain.gnu.ba.elf.exe.debug">
+							<targetPlatform id="com.beyondsemi.target.gnu.platform.ba.elf.exe.debug.175879490" superClass="com.beyondsemi.target.gnu.platform.ba.elf.exe.debug"/>
+							<builder buildPath="${workspace_loc:/ba22-pic/Debug}" id="com.beyondsemi.builder.ba.elf.exe.debug.1615382296" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.beyondsemi.builder.ba.elf.exe.debug"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.debug.1032937716" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.optimization.822458032" name="Optimization Level" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.optimization" value="gnu.c.optimization.level.size" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.687641096" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1430160231" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.100819009" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols"/>
+								<option id="com.beyondsemi.optioncategory.gnu.c.compiler.insns.m16regs.1026667058" name="use only 16 regs (-m16regs)" superClass="com.beyondsemi.optioncategory.gnu.c.compiler.insns.m16regs" value="true" valueType="boolean"/>
+								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.1631297425" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
+								<inputType id="com.beyondsemi.assembler.macro.input.2103217215" superClass="com.beyondsemi.assembler.macro.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.exe.debug.1064863016" name="BA ELF GNU C++ compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.exe.debug">
+								<option defaultValue="gnu.cpp.compiler.optimization.level.none" id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.optimization.892463209" name="Optimization Level" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.optimization" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.751508423" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.c.exe.debug.2104551028" name="BA ELF GNU C linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.c.exe.debug">
+								<option id="gnu.c.link.option.ldflags.1997448928" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-T ../ram.ld" valueType="string"/>
+								<option id="gnu.c.link.option.nostart.823270770" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.979564051" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.exe.debug.1539272776" name="BA ELF GNU C++ linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.exe.debug">
+								<option id="gnu.cpp.link.option.flags.935830520" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-T ../ram.ld" valueType="string"/>
+								<option id="gnu.cpp.link.option.nostart.1368562126" name="Do not use standard start files (-nostartfiles)" superClass="gnu.cpp.link.option.nostart" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.assembler.exe.debug.433144783" name="BA ELF GNU assembler" superClass="com.beyondsemi.tool.gnu.ba.elf.assembler.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.623897712" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.beyondsemi.assembler.input.1839704210" superClass="com.beyondsemi.assembler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.archiver.base.24614642" name="BA ELF GNU archiver" superClass="com.beyondsemi.tool.gnu.ba.elf.archiver.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.size.exe.debug.1280984580" name="BA ELF GNU size" superClass="com.beyondsemi.tool.gnu.ba.elf.size.exe.debug"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.objcopy.exe.debug.543831842" name="BA ELF GNU objcopy" superClass="com.beyondsemi.tool.gnu.ba.elf.objcopy.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.beyondsemi.config.ba.elf.exe.release.901232767">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.beyondsemi.config.ba.elf.exe.release.901232767" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.beyondsemi.base.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=com.beyondsemi.base.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="com.beyondsemi.config.ba.elf.exe.release.901232767" name="Release" parent="com.beyondsemi.config.ba.elf.exe.release">
+					<folderInfo id="com.beyondsemi.config.ba.elf.exe.release.901232767." name="/" resourcePath="">
+						<toolChain id="com.beyondsemi.toolchain.gnu.ba.elf.exe.release.520272763" name="BA ELF GNU toolchain" superClass="com.beyondsemi.toolchain.gnu.ba.elf.exe.release">
+							<targetPlatform id="com.beyondsemi.target.gnu.platform.ba.elf.exe.release.519306683" superClass="com.beyondsemi.target.gnu.platform.ba.elf.exe.release"/>
+							<builder buildPath="${workspace_loc:/ba22-pic/Release}" id="com.beyondsemi.builder.ba.elf.exe.release.1061212227" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.beyondsemi.builder.ba.elf.exe.release"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.release.1844585507" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.release">
+								<option defaultValue="gnu.c.optimization.level.size" id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.optimization.803610405" name="Optimization Level" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.optimization" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.217403199" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.1828492208" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
+								<inputType id="com.beyondsemi.assembler.macro.input.749206723" superClass="com.beyondsemi.assembler.macro.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.exe.release.2079169964" name="BA ELF GNU C++ compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.exe.release">
+								<option defaultValue="gnu.cpp.compiler.optimization.level.size" id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.optimization.985408891" name="Optimization Level" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.optimization" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.429245065" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.c.exe.release.1924435953" name="BA ELF GNU C linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.c.exe.release">
+								<option id="gnu.c.link.option.ldflags.1652990856" name="Linker flags" superClass="gnu.c.link.option.ldflags" value="-T ../ram.ld" valueType="string"/>
+								<option id="gnu.c.link.option.nostart.858933956" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1908007775" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.exe.release.477627366" name="BA ELF GNU C++ linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.exe.release">
+								<option id="gnu.cpp.link.option.flags.204665592" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-T ../ram.ld" valueType="string"/>
+								<option id="gnu.cpp.link.option.nostart.164553415" name="Do not use standard start files (-nostartfiles)" superClass="gnu.cpp.link.option.nostart" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.assembler.exe.release.1334618852" name="BA ELF GNU assembler" superClass="com.beyondsemi.tool.gnu.ba.elf.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1495209449" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.beyondsemi.assembler.input.1713896594" superClass="com.beyondsemi.assembler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.archiver.base.1878476284" name="BA ELF GNU archiver" superClass="com.beyondsemi.tool.gnu.ba.elf.archiver.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.size.exe.release.1056009443" name="BA ELF GNU size" superClass="com.beyondsemi.tool.gnu.ba.elf.size.exe.release"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.objcopy.exe.release.1746845997" name="BA ELF GNU objcopy" superClass="com.beyondsemi.tool.gnu.ba.elf.objcopy.exe.release"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ba22-pic.com.beyondsemi.projecttype.ba.elf.exe.311123831" name="Beyond BA application" projectType="com.beyondsemi.projecttype.ba.elf.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.beyondsemi.config.ba.elf.exe.debug.329046508;com.beyondsemi.config.ba.elf.exe.debug.329046508.;com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.debug.1032937716;com.beyondsemi.base.ba.elf.c.compiler.input.1631297425">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.beyondsemi.base.elf.c.scanner.configdiscovery"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.beyondsemi.config.ba.elf.exe.release.901232767;com.beyondsemi.config.ba.elf.exe.release.901232767.;com.beyondsemi.tool.gnu.ba.elf.compiler.c.exe.release.1844585507;com.beyondsemi.base.ba.elf.c.compiler.input.1828492208">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.beyondsemi.base.elf.c.scanner.configdiscovery"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

@@ -1,0 +1,370 @@
+     41935ns  Reset Exception Vector, IMEM addr: 32'h00000100
+     42115ns  Reset Exception Vector, IMEM addr: 32'h00000100
+     42235ns  Reset Exception Vector, IMEM addr: 32'h00000100
+     43075ns  Reset Exception Vector, IMEM addr: 32'h00000100
+     44805ns  >>>>>>>> AHB write to 90000014 - Interrupt Status Register is 00008001
+     45405ns  >>>>>>>> AHB write to 9000000c  - Interrupt Mask : 00000000
+     46005ns  >>>>>>>> AHB write to 9000000c  - Interrupt Mask : 00000007
+     46245ns  >>>>>>>> AHB write to 90000020 - Clear the interrupt; data is 00000000
+     46376ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     46495ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     46975ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     48525ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000001 are active
+     48765ns  >>>>>>>> AHB write to 90000020 - Clear the interrupt; data is 00000001
+     49305ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000000 are active
+     51416ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     51535ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     52015ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     53565ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000002 are active
+     53805ns  >>>>>>>> AHB write to 90000020 - Clear the interrupt; data is 00000002
+     54345ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000000 are active
+     56456ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     56575ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     57055ns  Exception: External Interrupt Vector, IMEM addr: 32'h00000800
+     58605ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000004 are active
+     58845ns  >>>>>>>> AHB write to 90000020 - Clear the interrupt; data is 00000004
+     59385ns  >>>>>>>> AHB write to 90000010 - Interrupt 00000000 are active
+     62325ns  >>>>>>>> AHB write to 90000000 - Character is ** H **
+     63045ns  >>>>>>>> AHB write to 90000000 - Character is ** e **
+     63765ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+     64485ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+     65205ns  >>>>>>>> AHB write to 90000000 - Character is ** o **
+     65925ns  >>>>>>>> AHB write to 90000000 - Character is ** , **
+     66645ns  >>>>>>>> AHB write to 90000000 - Character is **   **
+     67365ns  >>>>>>>> AHB write to 90000000 - Character is ** W **
+     68085ns  >>>>>>>> AHB write to 90000000 - Character is ** o **
+     68805ns  >>>>>>>> AHB write to 90000000 - Character is ** r **
+     69525ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+     70245ns  >>>>>>>> AHB write to 90000000 - Character is ** d **
+     70965ns  >>>>>>>> AHB write to 90000000 - Character is ** ! **
+     71685ns  >>>>>>>> AHB write to 90000000 - Character is ** 
+ **
+     72225ns  >>>>>>>> AHB write to 90000004 - Data: 00000000
+     72825ns  >>>>>>>> AHB write to 90000004 - Data: 00000001
+     73425ns  >>>>>>>> AHB write to 90000004 - Data: 00000002
+     74025ns  >>>>>>>> AHB write to 90000004 - Data: 00000003
+     74625ns  >>>>>>>> AHB write to 90000004 - Data: 00000004
+     75225ns  >>>>>>>> AHB write to 90000004 - Data: 00000005
+     75825ns  >>>>>>>> AHB write to 90000004 - Data: 00000006
+     76425ns  >>>>>>>> AHB write to 90000004 - Data: 00000007
+     77025ns  >>>>>>>> AHB write to 90000004 - Data: 00000008
+     77625ns  >>>>>>>> AHB write to 90000004 - Data: 00000009
+     78225ns  >>>>>>>> AHB write to 90000004 - Data: 0000000a
+     78825ns  >>>>>>>> AHB write to 90000004 - Data: 0000000b
+     79425ns  >>>>>>>> AHB write to 90000004 - Data: 0000000c
+     80025ns  >>>>>>>> AHB write to 90000004 - Data: 0000000d
+     80625ns  >>>>>>>> AHB write to 90000004 - Data: 0000000e
+     81225ns  >>>>>>>> AHB write to 90000004 - Data: 0000000f
+     81825ns  >>>>>>>> AHB write to 90000004 - Data: 00000010
+     82425ns  >>>>>>>> AHB write to 90000004 - Data: 00000011
+     83025ns  >>>>>>>> AHB write to 90000004 - Data: 00000012
+     83625ns  >>>>>>>> AHB write to 90000004 - Data: 00000013
+     84225ns  >>>>>>>> AHB write to 90000004 - Data: 00000014
+     84825ns  >>>>>>>> AHB write to 90000004 - Data: 00000015
+     85425ns  >>>>>>>> AHB write to 90000004 - Data: 00000016
+     86025ns  >>>>>>>> AHB write to 90000004 - Data: 00000017
+     86625ns  >>>>>>>> AHB write to 90000004 - Data: 00000018
+     87225ns  >>>>>>>> AHB write to 90000004 - Data: 00000019
+     87825ns  >>>>>>>> AHB write to 90000004 - Data: 0000001a
+     88425ns  >>>>>>>> AHB write to 90000004 - Data: 0000001b
+     89025ns  >>>>>>>> AHB write to 90000004 - Data: 0000001c
+     89625ns  >>>>>>>> AHB write to 90000004 - Data: 0000001d
+     90225ns  >>>>>>>> AHB write to 90000004 - Data: 0000001e
+     90825ns  >>>>>>>> AHB write to 90000004 - Data: 0000001f
+     91425ns  >>>>>>>> AHB write to 90000004 - Data: 00000020
+     92025ns  >>>>>>>> AHB write to 90000004 - Data: 00000021
+     92625ns  >>>>>>>> AHB write to 90000004 - Data: 00000022
+     93225ns  >>>>>>>> AHB write to 90000004 - Data: 00000023
+     93825ns  >>>>>>>> AHB write to 90000004 - Data: 00000024
+     94425ns  >>>>>>>> AHB write to 90000004 - Data: 00000025
+     95025ns  >>>>>>>> AHB write to 90000004 - Data: 00000026
+     95625ns  >>>>>>>> AHB write to 90000004 - Data: 00000027
+     96225ns  >>>>>>>> AHB write to 90000004 - Data: 00000028
+     96825ns  >>>>>>>> AHB write to 90000004 - Data: 00000029
+     97425ns  >>>>>>>> AHB write to 90000004 - Data: 0000002a
+     98025ns  >>>>>>>> AHB write to 90000004 - Data: 0000002b
+     98625ns  >>>>>>>> AHB write to 90000004 - Data: 0000002c
+     99225ns  >>>>>>>> AHB write to 90000004 - Data: 0000002d
+     99825ns  >>>>>>>> AHB write to 90000004 - Data: 0000002e
+    100425ns  >>>>>>>> AHB write to 90000004 - Data: 0000002f
+    101025ns  >>>>>>>> AHB write to 90000004 - Data: 00000030
+    101625ns  >>>>>>>> AHB write to 90000004 - Data: 00000031
+    102225ns  >>>>>>>> AHB write to 90000004 - Data: 00000032
+    102825ns  >>>>>>>> AHB write to 90000004 - Data: 00000033
+    103425ns  >>>>>>>> AHB write to 90000004 - Data: 00000034
+    104025ns  >>>>>>>> AHB write to 90000004 - Data: 00000035
+    104625ns  >>>>>>>> AHB write to 90000004 - Data: 00000036
+    105225ns  >>>>>>>> AHB write to 90000004 - Data: 00000037
+    105825ns  >>>>>>>> AHB write to 90000004 - Data: 00000038
+    106425ns  >>>>>>>> AHB write to 90000004 - Data: 00000039
+    107025ns  >>>>>>>> AHB write to 90000004 - Data: 0000003a
+    107625ns  >>>>>>>> AHB write to 90000004 - Data: 0000003b
+    108225ns  >>>>>>>> AHB write to 90000004 - Data: 0000003c
+    108825ns  >>>>>>>> AHB write to 90000004 - Data: 0000003d
+    109425ns  >>>>>>>> AHB write to 90000004 - Data: 0000003e
+    110025ns  >>>>>>>> AHB write to 90000004 - Data: 0000003f
+    110625ns  >>>>>>>> AHB write to 90000004 - Data: 00000040
+    111225ns  >>>>>>>> AHB write to 90000004 - Data: 00000041
+    111825ns  >>>>>>>> AHB write to 90000004 - Data: 00000042
+    112425ns  >>>>>>>> AHB write to 90000004 - Data: 00000043
+    113025ns  >>>>>>>> AHB write to 90000004 - Data: 00000044
+    113625ns  >>>>>>>> AHB write to 90000004 - Data: 00000045
+    114225ns  >>>>>>>> AHB write to 90000004 - Data: 00000046
+    114825ns  >>>>>>>> AHB write to 90000004 - Data: 00000047
+    115425ns  >>>>>>>> AHB write to 90000004 - Data: 00000048
+    116025ns  >>>>>>>> AHB write to 90000004 - Data: 00000049
+    116625ns  >>>>>>>> AHB write to 90000004 - Data: 0000004a
+    117225ns  >>>>>>>> AHB write to 90000004 - Data: 0000004b
+    117825ns  >>>>>>>> AHB write to 90000004 - Data: 0000004c
+    118425ns  >>>>>>>> AHB write to 90000004 - Data: 0000004d
+    119025ns  >>>>>>>> AHB write to 90000004 - Data: 0000004e
+    119625ns  >>>>>>>> AHB write to 90000004 - Data: 0000004f
+    120225ns  >>>>>>>> AHB write to 90000004 - Data: 00000050
+    120825ns  >>>>>>>> AHB write to 90000004 - Data: 00000051
+    121425ns  >>>>>>>> AHB write to 90000004 - Data: 00000052
+    122025ns  >>>>>>>> AHB write to 90000004 - Data: 00000053
+    122625ns  >>>>>>>> AHB write to 90000004 - Data: 00000054
+    123225ns  >>>>>>>> AHB write to 90000004 - Data: 00000055
+    123825ns  >>>>>>>> AHB write to 90000004 - Data: 00000056
+    124425ns  >>>>>>>> AHB write to 90000004 - Data: 00000057
+    125025ns  >>>>>>>> AHB write to 90000004 - Data: 00000058
+    125625ns  >>>>>>>> AHB write to 90000004 - Data: 00000059
+    126225ns  >>>>>>>> AHB write to 90000004 - Data: 0000005a
+    126825ns  >>>>>>>> AHB write to 90000004 - Data: 0000005b
+    127425ns  >>>>>>>> AHB write to 90000004 - Data: 0000005c
+    128025ns  >>>>>>>> AHB write to 90000004 - Data: 0000005d
+    128625ns  >>>>>>>> AHB write to 90000004 - Data: 0000005e
+    129225ns  >>>>>>>> AHB write to 90000004 - Data: 0000005f
+    129825ns  >>>>>>>> AHB write to 90000004 - Data: 00000060
+    130425ns  >>>>>>>> AHB write to 90000004 - Data: 00000061
+    131025ns  >>>>>>>> AHB write to 90000004 - Data: 00000062
+    131625ns  >>>>>>>> AHB write to 90000004 - Data: 00000063
+    132225ns  >>>>>>>> AHB write to 90000004 - Data: 00000064
+    132825ns  >>>>>>>> AHB write to 90000004 - Data: 00000065
+    133425ns  >>>>>>>> AHB write to 90000004 - Data: 00000066
+    134025ns  >>>>>>>> AHB write to 90000004 - Data: 00000067
+    134625ns  >>>>>>>> AHB write to 90000004 - Data: 00000068
+    135225ns  >>>>>>>> AHB write to 90000004 - Data: 00000069
+    135825ns  >>>>>>>> AHB write to 90000004 - Data: 0000006a
+    136425ns  >>>>>>>> AHB write to 90000004 - Data: 0000006b
+    137025ns  >>>>>>>> AHB write to 90000004 - Data: 0000006c
+    137625ns  >>>>>>>> AHB write to 90000004 - Data: 0000006d
+    138225ns  >>>>>>>> AHB write to 90000004 - Data: 0000006e
+    138825ns  >>>>>>>> AHB write to 90000004 - Data: 0000006f
+    139425ns  >>>>>>>> AHB write to 90000004 - Data: 00000070
+    140025ns  >>>>>>>> AHB write to 90000004 - Data: 00000071
+    140625ns  >>>>>>>> AHB write to 90000004 - Data: 00000072
+    141225ns  >>>>>>>> AHB write to 90000004 - Data: 00000073
+    141825ns  >>>>>>>> AHB write to 90000004 - Data: 00000074
+    142425ns  >>>>>>>> AHB write to 90000004 - Data: 00000075
+    143025ns  >>>>>>>> AHB write to 90000004 - Data: 00000076
+    143625ns  >>>>>>>> AHB write to 90000004 - Data: 00000077
+    144225ns  >>>>>>>> AHB write to 90000004 - Data: 00000078
+    144825ns  >>>>>>>> AHB write to 90000004 - Data: 00000079
+    145425ns  >>>>>>>> AHB write to 90000004 - Data: 0000007a
+    146025ns  >>>>>>>> AHB write to 90000004 - Data: 0000007b
+    146625ns  >>>>>>>> AHB write to 90000004 - Data: 0000007c
+    147225ns  >>>>>>>> AHB write to 90000004 - Data: 0000007d
+    147825ns  >>>>>>>> AHB write to 90000004 - Data: 0000007e
+    148425ns  >>>>>>>> AHB write to 90000004 - Data: 0000007f
+    149025ns  >>>>>>>> AHB write to 90000004 - Data: 00000080
+    149625ns  >>>>>>>> AHB write to 90000004 - Data: 00000081
+    150225ns  >>>>>>>> AHB write to 90000004 - Data: 00000082
+    150825ns  >>>>>>>> AHB write to 90000004 - Data: 00000083
+    151425ns  >>>>>>>> AHB write to 90000004 - Data: 00000084
+    152025ns  >>>>>>>> AHB write to 90000004 - Data: 00000085
+    152625ns  >>>>>>>> AHB write to 90000004 - Data: 00000086
+    153225ns  >>>>>>>> AHB write to 90000004 - Data: 00000087
+    153825ns  >>>>>>>> AHB write to 90000004 - Data: 00000088
+    154425ns  >>>>>>>> AHB write to 90000004 - Data: 00000089
+    155025ns  >>>>>>>> AHB write to 90000004 - Data: 0000008a
+    155625ns  >>>>>>>> AHB write to 90000004 - Data: 0000008b
+    156225ns  >>>>>>>> AHB write to 90000004 - Data: 0000008c
+    156825ns  >>>>>>>> AHB write to 90000004 - Data: 0000008d
+    157425ns  >>>>>>>> AHB write to 90000004 - Data: 0000008e
+    158025ns  >>>>>>>> AHB write to 90000004 - Data: 0000008f
+    158625ns  >>>>>>>> AHB write to 90000004 - Data: 00000090
+    159225ns  >>>>>>>> AHB write to 90000004 - Data: 00000091
+    159825ns  >>>>>>>> AHB write to 90000004 - Data: 00000092
+    160425ns  >>>>>>>> AHB write to 90000004 - Data: 00000093
+    161025ns  >>>>>>>> AHB write to 90000004 - Data: 00000094
+    161625ns  >>>>>>>> AHB write to 90000004 - Data: 00000095
+    162225ns  >>>>>>>> AHB write to 90000004 - Data: 00000096
+    162825ns  >>>>>>>> AHB write to 90000004 - Data: 00000097
+    163425ns  >>>>>>>> AHB write to 90000004 - Data: 00000098
+    164025ns  >>>>>>>> AHB write to 90000004 - Data: 00000099
+    164445ns  >>>>>>>> AHB write to 90000004 - Data: 00000099
+    164865ns  >>>>>>>> AHB write to 90000004 - Data: 00000098
+    165285ns  >>>>>>>> AHB write to 90000004 - Data: 00000097
+    165705ns  >>>>>>>> AHB write to 90000004 - Data: 00000096
+    166125ns  >>>>>>>> AHB write to 90000004 - Data: 00000095
+    166545ns  >>>>>>>> AHB write to 90000004 - Data: 00000094
+    166965ns  >>>>>>>> AHB write to 90000004 - Data: 00000093
+    167385ns  >>>>>>>> AHB write to 90000004 - Data: 00000092
+    167805ns  >>>>>>>> AHB write to 90000004 - Data: 00000091
+    168225ns  >>>>>>>> AHB write to 90000004 - Data: 00000090
+    168645ns  >>>>>>>> AHB write to 90000004 - Data: 0000008f
+    169065ns  >>>>>>>> AHB write to 90000004 - Data: 0000008e
+    169485ns  >>>>>>>> AHB write to 90000004 - Data: 0000008d
+    169905ns  >>>>>>>> AHB write to 90000004 - Data: 0000008c
+    170325ns  >>>>>>>> AHB write to 90000004 - Data: 0000008b
+    170745ns  >>>>>>>> AHB write to 90000004 - Data: 0000008a
+    171165ns  >>>>>>>> AHB write to 90000004 - Data: 00000089
+    171585ns  >>>>>>>> AHB write to 90000004 - Data: 00000088
+    172005ns  >>>>>>>> AHB write to 90000004 - Data: 00000087
+    172425ns  >>>>>>>> AHB write to 90000004 - Data: 00000086
+    172845ns  >>>>>>>> AHB write to 90000004 - Data: 00000085
+    173265ns  >>>>>>>> AHB write to 90000004 - Data: 00000084
+    173685ns  >>>>>>>> AHB write to 90000004 - Data: 00000083
+    174105ns  >>>>>>>> AHB write to 90000004 - Data: 00000082
+    174525ns  >>>>>>>> AHB write to 90000004 - Data: 00000081
+    174945ns  >>>>>>>> AHB write to 90000004 - Data: 00000080
+    175365ns  >>>>>>>> AHB write to 90000004 - Data: 0000007f
+    175785ns  >>>>>>>> AHB write to 90000004 - Data: 0000007e
+    176205ns  >>>>>>>> AHB write to 90000004 - Data: 0000007d
+    176625ns  >>>>>>>> AHB write to 90000004 - Data: 0000007c
+    177045ns  >>>>>>>> AHB write to 90000004 - Data: 0000007b
+    177465ns  >>>>>>>> AHB write to 90000004 - Data: 0000007a
+    177885ns  >>>>>>>> AHB write to 90000004 - Data: 00000079
+    178305ns  >>>>>>>> AHB write to 90000004 - Data: 00000078
+    178725ns  >>>>>>>> AHB write to 90000004 - Data: 00000077
+    179145ns  >>>>>>>> AHB write to 90000004 - Data: 00000076
+    179565ns  >>>>>>>> AHB write to 90000004 - Data: 00000075
+    179985ns  >>>>>>>> AHB write to 90000004 - Data: 00000074
+    180405ns  >>>>>>>> AHB write to 90000004 - Data: 00000073
+    180825ns  >>>>>>>> AHB write to 90000004 - Data: 00000072
+    181245ns  >>>>>>>> AHB write to 90000004 - Data: 00000071
+    181665ns  >>>>>>>> AHB write to 90000004 - Data: 00000070
+    182085ns  >>>>>>>> AHB write to 90000004 - Data: 0000006f
+    182505ns  >>>>>>>> AHB write to 90000004 - Data: 0000006e
+    182925ns  >>>>>>>> AHB write to 90000004 - Data: 0000006d
+    183345ns  >>>>>>>> AHB write to 90000004 - Data: 0000006c
+    183765ns  >>>>>>>> AHB write to 90000004 - Data: 0000006b
+    184185ns  >>>>>>>> AHB write to 90000004 - Data: 0000006a
+    184605ns  >>>>>>>> AHB write to 90000004 - Data: 00000069
+    185025ns  >>>>>>>> AHB write to 90000004 - Data: 00000068
+    185445ns  >>>>>>>> AHB write to 90000004 - Data: 00000067
+    185865ns  >>>>>>>> AHB write to 90000004 - Data: 00000066
+    186285ns  >>>>>>>> AHB write to 90000004 - Data: 00000065
+    186705ns  >>>>>>>> AHB write to 90000004 - Data: 00000064
+    187125ns  >>>>>>>> AHB write to 90000004 - Data: 00000063
+    187545ns  >>>>>>>> AHB write to 90000004 - Data: 00000062
+    187965ns  >>>>>>>> AHB write to 90000004 - Data: 00000061
+    188385ns  >>>>>>>> AHB write to 90000004 - Data: 00000060
+    188805ns  >>>>>>>> AHB write to 90000004 - Data: 0000005f
+    189225ns  >>>>>>>> AHB write to 90000004 - Data: 0000005e
+    189645ns  >>>>>>>> AHB write to 90000004 - Data: 0000005d
+    190065ns  >>>>>>>> AHB write to 90000004 - Data: 0000005c
+    190485ns  >>>>>>>> AHB write to 90000004 - Data: 0000005b
+    190905ns  >>>>>>>> AHB write to 90000004 - Data: 0000005a
+    191325ns  >>>>>>>> AHB write to 90000004 - Data: 00000059
+    191745ns  >>>>>>>> AHB write to 90000004 - Data: 00000058
+    192165ns  >>>>>>>> AHB write to 90000004 - Data: 00000057
+    192585ns  >>>>>>>> AHB write to 90000004 - Data: 00000056
+    193005ns  >>>>>>>> AHB write to 90000004 - Data: 00000055
+    193425ns  >>>>>>>> AHB write to 90000004 - Data: 00000054
+    193845ns  >>>>>>>> AHB write to 90000004 - Data: 00000053
+    194265ns  >>>>>>>> AHB write to 90000004 - Data: 00000052
+    194685ns  >>>>>>>> AHB write to 90000004 - Data: 00000051
+    195105ns  >>>>>>>> AHB write to 90000004 - Data: 00000050
+    195525ns  >>>>>>>> AHB write to 90000004 - Data: 0000004f
+    195945ns  >>>>>>>> AHB write to 90000004 - Data: 0000004e
+    196365ns  >>>>>>>> AHB write to 90000004 - Data: 0000004d
+    196785ns  >>>>>>>> AHB write to 90000004 - Data: 0000004c
+    197205ns  >>>>>>>> AHB write to 90000004 - Data: 0000004b
+    197625ns  >>>>>>>> AHB write to 90000004 - Data: 0000004a
+    198045ns  >>>>>>>> AHB write to 90000004 - Data: 00000049
+    198465ns  >>>>>>>> AHB write to 90000004 - Data: 00000048
+    198885ns  >>>>>>>> AHB write to 90000004 - Data: 00000047
+    199305ns  >>>>>>>> AHB write to 90000004 - Data: 00000046
+    199725ns  >>>>>>>> AHB write to 90000004 - Data: 00000045
+    200145ns  >>>>>>>> AHB write to 90000004 - Data: 00000044
+    200565ns  >>>>>>>> AHB write to 90000004 - Data: 00000043
+    200985ns  >>>>>>>> AHB write to 90000004 - Data: 00000042
+    201405ns  >>>>>>>> AHB write to 90000004 - Data: 00000041
+    201825ns  >>>>>>>> AHB write to 90000004 - Data: 00000040
+    202245ns  >>>>>>>> AHB write to 90000004 - Data: 0000003f
+    202665ns  >>>>>>>> AHB write to 90000004 - Data: 0000003e
+    203085ns  >>>>>>>> AHB write to 90000004 - Data: 0000003d
+    203505ns  >>>>>>>> AHB write to 90000004 - Data: 0000003c
+    203925ns  >>>>>>>> AHB write to 90000004 - Data: 0000003b
+    204345ns  >>>>>>>> AHB write to 90000004 - Data: 0000003a
+    204765ns  >>>>>>>> AHB write to 90000004 - Data: 00000039
+    205185ns  >>>>>>>> AHB write to 90000004 - Data: 00000038
+    205605ns  >>>>>>>> AHB write to 90000004 - Data: 00000037
+    206025ns  >>>>>>>> AHB write to 90000004 - Data: 00000036
+    206445ns  >>>>>>>> AHB write to 90000004 - Data: 00000035
+    206865ns  >>>>>>>> AHB write to 90000004 - Data: 00000034
+    207285ns  >>>>>>>> AHB write to 90000004 - Data: 00000033
+    207705ns  >>>>>>>> AHB write to 90000004 - Data: 00000032
+    208125ns  >>>>>>>> AHB write to 90000004 - Data: 00000031
+    208545ns  >>>>>>>> AHB write to 90000004 - Data: 00000030
+    208965ns  >>>>>>>> AHB write to 90000004 - Data: 0000002f
+    209385ns  >>>>>>>> AHB write to 90000004 - Data: 0000002e
+    209805ns  >>>>>>>> AHB write to 90000004 - Data: 0000002d
+    210225ns  >>>>>>>> AHB write to 90000004 - Data: 0000002c
+    210645ns  >>>>>>>> AHB write to 90000004 - Data: 0000002b
+    211065ns  >>>>>>>> AHB write to 90000004 - Data: 0000002a
+    211485ns  >>>>>>>> AHB write to 90000004 - Data: 00000029
+    211905ns  >>>>>>>> AHB write to 90000004 - Data: 00000028
+    212325ns  >>>>>>>> AHB write to 90000004 - Data: 00000027
+    212745ns  >>>>>>>> AHB write to 90000004 - Data: 00000026
+    213165ns  >>>>>>>> AHB write to 90000004 - Data: 00000025
+    213585ns  >>>>>>>> AHB write to 90000004 - Data: 00000024
+    214005ns  >>>>>>>> AHB write to 90000004 - Data: 00000023
+    214425ns  >>>>>>>> AHB write to 90000004 - Data: 00000022
+    214845ns  >>>>>>>> AHB write to 90000004 - Data: 00000021
+    215265ns  >>>>>>>> AHB write to 90000004 - Data: 00000020
+    215685ns  >>>>>>>> AHB write to 90000004 - Data: 0000001f
+    216105ns  >>>>>>>> AHB write to 90000004 - Data: 0000001e
+    216525ns  >>>>>>>> AHB write to 90000004 - Data: 0000001d
+    216945ns  >>>>>>>> AHB write to 90000004 - Data: 0000001c
+    217365ns  >>>>>>>> AHB write to 90000004 - Data: 0000001b
+    217785ns  >>>>>>>> AHB write to 90000004 - Data: 0000001a
+    218205ns  >>>>>>>> AHB write to 90000004 - Data: 00000019
+    218625ns  >>>>>>>> AHB write to 90000004 - Data: 00000018
+    219045ns  >>>>>>>> AHB write to 90000004 - Data: 00000017
+    219465ns  >>>>>>>> AHB write to 90000004 - Data: 00000016
+    219885ns  >>>>>>>> AHB write to 90000004 - Data: 00000015
+    220305ns  >>>>>>>> AHB write to 90000004 - Data: 00000014
+    220725ns  >>>>>>>> AHB write to 90000004 - Data: 00000013
+    221145ns  >>>>>>>> AHB write to 90000004 - Data: 00000012
+    221565ns  >>>>>>>> AHB write to 90000004 - Data: 00000011
+    221985ns  >>>>>>>> AHB write to 90000004 - Data: 00000010
+    222405ns  >>>>>>>> AHB write to 90000004 - Data: 0000000f
+    222825ns  >>>>>>>> AHB write to 90000004 - Data: 0000000e
+    223245ns  >>>>>>>> AHB write to 90000004 - Data: 0000000d
+    223665ns  >>>>>>>> AHB write to 90000004 - Data: 0000000c
+    224085ns  >>>>>>>> AHB write to 90000004 - Data: 0000000b
+    224505ns  >>>>>>>> AHB write to 90000004 - Data: 0000000a
+    224925ns  >>>>>>>> AHB write to 90000004 - Data: 00000009
+    225345ns  >>>>>>>> AHB write to 90000004 - Data: 00000008
+    225765ns  >>>>>>>> AHB write to 90000004 - Data: 00000007
+    226185ns  >>>>>>>> AHB write to 90000004 - Data: 00000006
+    226605ns  >>>>>>>> AHB write to 90000004 - Data: 00000005
+    227025ns  >>>>>>>> AHB write to 90000004 - Data: 00000004
+    227445ns  >>>>>>>> AHB write to 90000004 - Data: 00000003
+    227865ns  >>>>>>>> AHB write to 90000004 - Data: 00000002
+    228285ns  >>>>>>>> AHB write to 90000004 - Data: 00000001
+    228705ns  >>>>>>>> AHB write to 90000004 - Data: 00000000
+    229665ns  >>>>>>>> AHB write to 90000000 - Character is ** H **
+    230385ns  >>>>>>>> AHB write to 90000000 - Character is ** e **
+    231105ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+    231825ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+    232545ns  >>>>>>>> AHB write to 90000000 - Character is ** o **
+    233265ns  >>>>>>>> AHB write to 90000000 - Character is ** , **
+    233985ns  >>>>>>>> AHB write to 90000000 - Character is **   **
+    234705ns  >>>>>>>> AHB write to 90000000 - Character is ** W **
+    235425ns  >>>>>>>> AHB write to 90000000 - Character is ** o **
+    236145ns  >>>>>>>> AHB write to 90000000 - Character is ** r **
+    236865ns  >>>>>>>> AHB write to 90000000 - Character is ** l **
+    237585ns  >>>>>>>> AHB write to 90000000 - Character is ** d **
+    238305ns  >>>>>>>> AHB write to 90000000 - Character is ** ! **
+    239025ns  >>>>>>>> AHB write to 90000000 - Character is ** 
+ **
+    239565ns  >>>>>>>> AHB write to 900000f0 - End of Simulation
+    239625ns  ***********************End of Simulation
+    239625ns  *********Number of Tick Timer Interrupts:   0 
+    239625ns  *********Number of External Interrupts:   3 
+    239625ns  *********Number of AHB READ is:    0 
+    239625ns  *********Number of AHB WRITE is:  350 

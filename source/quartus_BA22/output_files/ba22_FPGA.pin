@@ -1,0 +1,850 @@
+ -- Copyright (C) 1991-2012 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 32-bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Web Edition
+CHIP  "ba22_FPGA"  ASSIGNED TO AN: EP4CE115F29C7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+iqmem_addr[2]                : A3        : input  : 2.5 V             :         : 8         : N              
+dbg_dat_o[28]                : A4        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
+dahb_rdata_i[6]              : A6        : input  : 2.5 V             :         : 8         : N              
+dahb_addr_o[21]              : A7        : output : 2.5 V             :         : 8         : N              
+dahb_rdata_i[15]             : A8        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
+dahb_size_o[1]               : A10       : output : 2.5 V             :         : 8         : N              
+iqmem_wdata[26]              : A11       : input  : 2.5 V             :         : 8         : N              
+dbg_dat_i[16]                : A12       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
+GND+                         : A14       :        :                   :         : 8         :                
+GND+                         : A15       :        :                   :         : 7         :                
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+dbg_dat_o[30]                : A17       : output : 2.5 V             :         : 7         : N              
+dbg_dat_i[28]                : A18       : input  : 2.5 V             :         : 7         : N              
+dahb_addr_o[16]              : A19       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A23       :        :                   :         : 7         :                
+VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A25       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A26       :        :                   :         : 7         :                
+VCCIO7                       : A27       : power  :                   : 2.5V    : 7         :                
+VCCIO2                       : AA1       : power  :                   : 2.5V    : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+dahb_rdata_i[14]             : AA3       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[27]             : AA4       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[16]             : AA5       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA6       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 2         :                
+iqmem_wdata[30]              : AA8       : input  : 2.5 V             :         : 3         : N              
+GNDA1                        : AA9       : gnd    :                   :         :           :                
+dbg_dat_o[14]                : AA10      : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+dahb_wdata_o[23]             : AA12      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[24]             : AA13      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[7]              : AA14      : output : 2.5 V             :         : 3         : N              
+dbg_dat_i[4]                 : AA15      : input  : 2.5 V             :         : 4         : N              
+iqmem_wdata[27]              : AA16      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA17      :        :                   :         : 4         :                
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA19      :        :                   :         : 4         :                
+GNDA4                        : AA20      : gnd    :                   :         :           :                
+dbg_wp_o[0]                  : AA21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA22      :        :                   :         : 5         :                
+dbg_lss_o[0]                 : AA23      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA24      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA25      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA26      :        :                   :         : 5         :                
+GND                          : AA27      : gnd    :                   :         :           :                
+VCCIO5                       : AA28      : power  :                   : 2.5V    : 5         :                
+iqmem_we                     : AB1       : input  : 2.5 V             :         : 2         : N              
+iqmem_wdata[1]               : AB2       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[11]             : AB3       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB6       :        :                   :         : 2         :                
+iqmem_wdata[12]              : AB7       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3         :                
+dbg_adr_i[12]                : AB9       : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[10]              : AB10      : input  : 2.5 V             :         : 3         : N              
+dbg_ack_o                    : AB11      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[22]             : AB12      : output : 2.5 V             :         : 3         : N              
+dbg_dat_i[6]                 : AB13      : input  : 2.5 V             :         : 3         : N              
+dahb_wdata_o[15]             : AB14      : output : 2.5 V             :         : 3         : N              
+dahb_prot_o[2]               : AB15      : output : 2.5 V             :         : 4         : N              
+iqmem_wdata[0]               : AB16      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB18      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB19      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB20      :        :                   :         : 4         :                
+pm_clmode_i[4]               : AB21      : input  : 2.5 V             :         : 4         : N              
+pm_clmode_i[2]               : AB22      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB23      :        :                   :         : 5         :                
+dbg_wp_o[9]                  : AB24      : output : 2.5 V             :         : 5         : N              
+iqmem_addr[20]               : AB25      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB26      :        :                   :         : 5         :                
+dbg_wp_o[4]                  : AB27      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB28      :        :                   :         : 5         :                
+dahb_rdata_i[21]             : AC1       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[17]             : AC2       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[12]             : AC3       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC5       :        :                   :         : 2         :                
+GND                          : AC6       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC7       :        :                   :         : 3         :                
+cpuid_i[17]                  : AC8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AC9       : gnd    :                   :         :           :                
+iqmem_wdata[18]              : AC10      : input  : 2.5 V             :         : 3         : N              
+dahb_wdata_o[26]             : AC11      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[6]              : AC12      : output : 2.5 V             :         : 3         : N              
+GND                          : AC13      : gnd    :                   :         :           :                
+dahb_wdata_o[25]             : AC14      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[21]             : AC15      : output : 2.5 V             :         : 4         : N              
+GND                          : AC16      : gnd    :                   :         :           :                
+dahb_burst_o[2]              : AC17      : output : 2.5 V             :         : 4         : N              
+dahb_trans_o[0]              : AC18      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC19      :        :                   :         : 4         :                
+GND                          : AC20      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC21      :        :                   :         : 4         :                
+iqmem_addr[17]               : AC22      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC23      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC24      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC25      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC26      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC28      :        :                   :         : 5         :                
+dahb_rdata_i[10]             : AD1       : input  : 2.5 V             :         : 2         : N              
+iqmem_wdata[19]              : AD2       : input  : 2.5 V             :         : 2         : N              
+iqmem_addr[12]               : AD3       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD4       :        :                   :         : 3         :                
+iqmem_addr[22]               : AD5       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD6       : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD7       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD8       :        :                   :         : 3         :                
+VCCIO3                       : AD9       : power  :                   : 2.5V    : 3         :                
+dahb_addr_o[7]               : AD10      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[28]             : AD11      : output : 2.5 V             :         : 3         : N              
+dbg_dat_i[17]                : AD12      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD13      : power  :                   : 2.5V    : 3         :                
+dahb_wdata_o[14]             : AD14      : output : 2.5 V             :         : 3         : N              
+iqmem_wdata[15]              : AD15      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD16      : power  :                   : 2.5V    : 4         :                
+dahb_size_o[2]               : AD17      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD18      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD19      :        :                   :         : 4         :                
+VCCIO4                       : AD20      : power  :                   : 2.5V    : 4         :                
+iqmem_addr[24]               : AD21      : input  : 2.5 V             :         : 4         : N              
+pm_clmode_i[6]               : AD22      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD23      : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD24      :        :                   :         : 4         :                
+dbg_wp_o[5]                  : AD25      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD26      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD28      :        :                   :         : 5         :                
+cpuid_i[20]                  : AE1       : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[29]             : AE2       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE4       :        :                   :         : 3         :                
+iqmem_addr[31]               : AE5       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE6       :        :                   :         : 3         :                
+dahb_rdata_i[8]              : AE7       : input  : 2.5 V             :         : 3         : N              
+dbg_dat_o[0]                 : AE8       : output : 2.5 V             :         : 3         : N              
+iqmem_wdata[20]              : AE9       : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[16]              : AE10      : input  : 2.5 V             :         : 3         : N              
+iqmem_addr[3]                : AE11      : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[3]               : AE12      : input  : 2.5 V             :         : 3         : N              
+iqmem_byte_en[2]             : AE13      : input  : 2.5 V             :         : 3         : N              
+dahb_wdata_o[16]             : AE14      : output : 2.5 V             :         : 3         : N              
+iqmem_wdata[8]               : AE15      : input  : 2.5 V             :         : 4         : N              
+rf_clk_en_o                  : AE16      : output : 2.5 V             :         : 4         : N              
+dahb_wdata_o[31]             : AE17      : output : 2.5 V             :         : 4         : N              
+iqmem_addr[26]               : AE18      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE19      :        :                   :         : 4         :                
+iqmem_addr[0]                : AE20      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE21      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE23      :        :                   :         : 4         :                
+pm_clmode_i[7]               : AE24      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE25      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE26      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE28      :        :                   :         : 5         :                
+GND                          : AF1       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF3       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF5       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF6       :        :                   :         : 3         :                
+dbg_dat_o[21]                : AF7       : output : 2.5 V             :         : 3         : N              
+dbg_dat_o[15]                : AF8       : output : 2.5 V             :         : 3         : N              
+dahb_rdata_i[2]              : AF9       : input  : 2.5 V             :         : 3         : N              
+iqmem_addr[7]                : AF10      : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[11]              : AF11      : input  : 2.5 V             :         : 3         : N              
+dahb_addr_o[8]               : AF12      : output : 2.5 V             :         : 3         : N              
+iqmem_byte_en[0]             : AF13      : input  : 2.5 V             :         : 3         : N              
+dahb_wdata_o[2]              : AF14      : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[19]             : AF15      : output : 2.5 V             :         : 4         : N              
+dbg_dat_i[23]                : AF16      : input  : 2.5 V             :         : 4         : N              
+iqmem_addr[13]               : AF17      : input  : 2.5 V             :         : 4         : N              
+dahb_wdata_o[29]             : AF18      : output : 2.5 V             :         : 4         : N              
+dbg_wp_o[6]                  : AF19      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF20      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF21      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF23      :        :                   :         : 4         :                
+dbg_is_o[0]                  : AF24      : output : 2.5 V             :         : 4         : N              
+dahb_lock_o                  : AF25      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF26      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF27      :        :                   :         : 5         :                
+GND                          : AF28      : gnd    :                   :         :           :                
+VCCIO2                       : AG1       : power  :                   : 2.5V    : 2         :                
+GND                          : AG2       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG3       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG4       :        :                   :         : 3         :                
+GND                          : AG5       : gnd    :                   :         :           :                
+iqmem_addr[14]               : AG6       : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[23]              : AG7       : input  : 2.5 V             :         : 3         : N              
+iqmem_wdata[2]               : AG8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AG9       : gnd    :                   :         :           :                
+ben_le_sel_i                 : AG10      : input  : 2.5 V             :         : 3         : N              
+dbg_adr_i[9]                 : AG11      : input  : 2.5 V             :         : 3         : N              
+dahb_wdata_o[4]              : AG12      : output : 2.5 V             :         : 3         : N              
+GND                          : AG13      : gnd    :                   :         :           :                
+pm_clk_i                     : AG14      : input  : 2.5 V             :         : 3         : N              
+dahb_rstn_i                  : AG15      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG16      : gnd    :                   :         :           :                
+dahb_wdata_o[1]              : AG17      : output : 2.5 V             :         : 4         : N              
+dahb_burst_o[1]              : AG18      : output : 2.5 V             :         : 4         : N              
+dahb_wdata_o[30]             : AG19      : output : 2.5 V             :         : 4         : N              
+GND                          : AG20      : gnd    :                   :         :           :                
+dahb_prot_o[0]               : AG21      : output : 2.5 V             :         : 4         : N              
+dahb_prot_o[3]               : AG22      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG23      :        :                   :         : 4         :                
+GND                          : AG24      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG25      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG26      :        :                   :         : 4         :                
+GND                          : AG27      : gnd    :                   :         :           :                
+VCCIO5                       : AG28      : power  :                   : 2.5V    : 5         :                
+VCCIO3                       : AH2       : power  :                   : 2.5V    : 3         :                
+iqmem_addr[25]               : AH3       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3         :                
+VCCIO3                       : AH5       : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH6       :        :                   :         : 3         :                
+iqmem_wdata[31]              : AH7       : input  : 2.5 V             :         : 3         : N              
+dbg_dat_i[19]                : AH8       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH9       : power  :                   : 2.5V    : 3         :                
+dbg_adr_i[15]                : AH10      : input  : 2.5 V             :         : 3         : N              
+dbg_dat_i[5]                 : AH11      : input  : 2.5 V             :         : 3         : N              
+cpuid_i[9]                   : AH12      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
+dahb_clk_i                   : AH14      : input  : 2.5 V             :         : 3         : N              
+rst_i                        : AH15      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
+dahb_wdata_o[10]             : AH17      : output : 2.5 V             :         : 4         : N              
+iqmem_byte_en[3]             : AH18      : input  : 2.5 V             :         : 4         : N              
+dahb_burst_o[0]              : AH19      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH20      : power  :                   : 2.5V    : 4         :                
+dahb_prot_o[1]               : AH21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH23      :        :                   :         : 4         :                
+VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
+dbg_lss_o[1]                 : AH25      : output : 2.5 V             :         : 4         : N              
+iqmem_addr[28]               : AH26      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
+VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
+GND                          : B2        : gnd    :                   :         :           :                
+pic_int_i[1]                 : B3        : input  : 2.5 V             :         : 8         : N              
+iqmem_addr[4]                : B4        : input  : 2.5 V             :         : 8         : N              
+GND                          : B5        : gnd    :                   :         :           :                
+cpuid_i[21]                  : B6        : input  : 2.5 V             :         : 8         : N              
+dbg_dat_o[23]                : B7        : output : 2.5 V             :         : 8         : N              
+iqmem_wdata[9]               : B8        : input  : 2.5 V             :         : 8         : N              
+GND                          : B9        : gnd    :                   :         :           :                
+dahb_addr_o[12]              : B10       : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[28]              : B11       : output : 2.5 V             :         : 8         : N              
+GND                          : B12       : gnd    :                   :         :           :                
+GND                          : B13       : gnd    :                   :         :           :                
+GND+                         : B14       :        :                   :         : 8         :                
+GND+                         : B15       :        :                   :         : 7         :                
+GND                          : B16       : gnd    :                   :         :           :                
+cpuid_i[31]                  : B17       : input  : 2.5 V             :         : 7         : N              
+iqmem_addr[8]                : B18       : input  : 2.5 V             :         : 7         : N              
+dbg_dat_i[20]                : B19       : input  : 2.5 V             :         : 7         : N              
+GND                          : B20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B23       :        :                   :         : 7         :                
+GND                          : B24       : gnd    :                   :         :           :                
+dbg_wp_o[3]                  : B25       : output : 2.5 V             :         : 7         : N              
+dbg_wp_o[1]                  : B26       : output : 2.5 V             :         : 7         : N              
+GND                          : B27       : gnd    :                   :         :           :                
+VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
+GND                          : C1        : gnd    :                   :         :           :                
+dbg_wp_o[7]                  : C2        : output : 2.5 V             :         : 1         : N              
+dbg_lss_o[3]                 : C3        : output : 2.5 V             :         : 8         : N              
+dbg_lss_o[2]                 : C4        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C5        :        :                   :         : 8         :                
+pm_event_o                   : C6        : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[22]              : C7        : output : 2.5 V             :         : 8         : N              
+dahb_grant_i                 : C8        : input  : 2.5 V             :         : 8         : N              
+cpuid_i[7]                   : C9        : input  : 2.5 V             :         : 8         : N              
+dbg_dat_i[3]                 : C10       : input  : 2.5 V             :         : 8         : N              
+cpuid_i[23]                  : C11       : input  : 2.5 V             :         : 8         : N              
+dbg_dat_i[29]                : C12       : input  : 2.5 V             :         : 8         : N              
+dbg_dat_i[25]                : C13       : input  : 2.5 V             :         : 8         : N              
+dahb_wdata_o[17]             : C14       : output : 2.5 V             :         : 8         : N              
+dbg_dat_i[0]                 : C15       : input  : 2.5 V             :         : 7         : N              
+dahb_addr_o[18]              : C16       : output : 2.5 V             :         : 7         : N              
+dbg_dat_i[26]                : C17       : input  : 2.5 V             :         : 7         : N              
+dahb_resp_i[1]               : C18       : input  : 2.5 V             :         : 7         : N              
+iqmem_wdata[29]              : C19       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C22       :        :                   :         : 7         :                
+iqmem_addr[29]               : C23       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C24       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C25       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C26       :        :                   :         : 7         :                
+pm_clmode_i[5]               : C27       : input  : 2.5 V             :         : 6         : N              
+GND                          : C28       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
+GND                          : D3        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D5        :        :                   :         : 8         :                
+dahb_addr_o[9]               : D6        : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[15]              : D7        : output : 2.5 V             :         : 8         : N              
+dbg_dat_o[10]                : D8        : output : 2.5 V             :         : 8         : N              
+dbg_dat_o[1]                 : D9        : output : 2.5 V             :         : 8         : N              
+dbg_adr_i[5]                 : D10       : input  : 2.5 V             :         : 8         : N              
+dbg_dat_o[11]                : D11       : output : 2.5 V             :         : 8         : N              
+dbg_dat_i[12]                : D12       : input  : 2.5 V             :         : 8         : N              
+dbg_bp_o                     : D13       : output : 2.5 V             :         : 8         : N              
+dbg_dat_i[18]                : D14       : input  : 2.5 V             :         : 8         : N              
+dahb_wdata_o[9]              : D15       : output : 2.5 V             :         : 7         : N              
+dbg_dat_i[11]                : D16       : input  : 2.5 V             :         : 7         : N              
+dbg_dat_i[27]                : D17       : input  : 2.5 V             :         : 7         : N              
+iqmem_wdata[28]              : D18       : input  : 2.5 V             :         : 7         : N              
+dahb_addr_o[3]               : D19       : output : 2.5 V             :         : 7         : N              
+dahb_addr_o[27]              : D20       : output : 2.5 V             :         : 7         : N              
+pm_clmode_i[1]               : D21       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D23       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D24       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D25       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D28       :        :                   :         : 6         :                
+dbg_dat_o[4]                 : E1        : output : 2.5 V             :         : 1         : N              
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+iqmem_stb                    : E3        : input  : 2.5 V             :         : 1         : N              
+iqmem_addr[16]               : E4        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 8         :                
+VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
+dahb_addr_o[20]              : E7        : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[4]               : E8        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
+dbg_adr_i[11]                : E10       : input  : 2.5 V             :         : 8         : N              
+dahb_size_o[0]               : E11       : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[6]               : E12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E13       : power  :                   : 2.5V    : 8         :                
+dbg_dat_i[13]                : E14       : input  : 2.5 V             :         : 8         : N              
+iqmem_wdata[6]               : E15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
+dahb_addr_o[26]              : E17       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 7         :                
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+dbg_wp_o[10]                 : E21       : output : 2.5 V             :         : 7         : N              
+iqmem_addr[23]               : E22       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+dbg_dat_i[15]                : E24       : input  : 2.5 V             :         : 7         : N              
+iqmem_wdata[14]              : E25       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
+iqmem_addr[1]                : E27       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
+dahb_addr_o[2]               : F1        : output : 2.5 V             :         : 1         : N              
+dbg_dat_o[29]                : F2        : output : 2.5 V             :         : 1         : N              
+cpuid_i[1]                   : F3        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : F4        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[20]                : F5        : output : 2.5 V             :         : 1         : N              
+GND                          : F6        : gnd    :                   :         :           :                
+dahb_addr_o[14]              : F7        : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[23]              : F8        : output : 2.5 V             :         : 8         : N              
+GND                          : F9        : gnd    :                   :         :           :                
+dbg_adr_i[4]                 : F10       : input  : 2.5 V             :         : 8         : N              
+dahb_addr_o[0]               : F11       : output : 2.5 V             :         : 8         : N              
+dahb_ready_i                 : F12       : input  : 2.5 V             :         : 8         : N              
+GND                          : F13       : gnd    :                   :         :           :                
+iqmem_addr[9]                : F14       : input  : 2.5 V             :         : 8         : N              
+iqmem_wdata[5]               : F15       : input  : 2.5 V             :         : 7         : N              
+GND                          : F16       : gnd    :                   :         :           :                
+iqmem_wdata[4]               : F17       : input  : 2.5 V             :         : 7         : N              
+pm_clmode_i[0]               : F18       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F19       :        :                   :         : 7         :                
+GND                          : F20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F22       :        :                   :         : 7         :                
+GND                          : F23       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F28       :        :                   :         : 6         :                
+cpuid_i[27]                  : G1        : input  : 2.5 V             :         : 1         : N              
+cpuid_i[2]                   : G2        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[26]                : G3        : output : 2.5 V             :         : 1         : N              
+cpuid_i[22]                  : G4        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G5        :        :                   :         : 1         :                
+cpuid_i[29]                  : G6        : input  : 2.5 V             :         : 1         : N              
+dahb_addr_o[11]              : G7        : output : 2.5 V             :         : 8         : N              
+iqmem_wdata[7]               : G8        : input  : 2.5 V             :         : 8         : N              
+dahb_addr_o[24]              : G9        : output : 2.5 V             :         : 8         : N              
+dbg_dat_o[12]                : G10       : output : 2.5 V             :         : 8         : N              
+pic_int_i[2]                 : G11       : input  : 2.5 V             :         : 8         : N              
+dbg_dat_o[19]                : G12       : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[10]              : G13       : output : 2.5 V             :         : 8         : N              
+cpuid_i[0]                   : G14       : input  : 2.5 V             :         : 8         : N              
+dahb_resp_i[0]               : G15       : input  : 2.5 V             :         : 7         : N              
+dahb_trans_o[1]              : G16       : output : 2.5 V             :         : 7         : N              
+dahb_addr_o[29]              : G17       : output : 2.5 V             :         : 7         : N              
+dahb_busreq_o                : G18       : output : 2.5 V             :         : 7         : N              
+dahb_addr_o[19]              : G19       : output : 2.5 V             :         : 7         : N              
+dbg_dat_i[2]                 : G20       : input  : 2.5 V             :         : 7         : N              
+dahb_wdata_o[0]              : G21       : output : 2.5 V             :         : 7         : N              
+dbg_dat_o[31]                : G22       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G23       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G28       :        :                   :         : 6         :                
+VCCIO1                       : H1        : power  :                   : 2.5V    : 1         :                
+GND                          : H2        : gnd    :                   :         :           :                
+dbg_dat_o[13]                : H3        : output : 2.5 V             :         : 1         : N              
+pm_stalled_o                 : H4        : output : 2.5 V             :         : 1         : N              
+dbg_dat_o[2]                 : H5        : output : 2.5 V             :         : 1         : N              
+cpuid_i[26]                  : H6        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[22]                : H7        : output : 2.5 V             :         : 1         : N              
+cpuid_i[28]                  : H8        : input  : 2.5 V             :         : 8         : N              
+GNDA3                        : H9        : gnd    :                   :         :           :                
+dahb_write_o                 : H10       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : H11       : power  :                   : 2.5V    : 8         :                
+cpuid_i[3]                   : H12       : input  : 2.5 V             :         : 8         : N              
+dahb_addr_o[31]              : H13       : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[30]              : H14       : output : 2.5 V             :         : 8         : N              
+dahb_addr_o[17]              : H15       : output : 2.5 V             :         : 7         : N              
+dahb_addr_o[25]              : H16       : output : 2.5 V             :         : 7         : N              
+dbg_dat_i[9]                 : H17       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
+dbg_dat_i[24]                : H19       : input  : 2.5 V             :         : 7         : N              
+GNDA2                        : H20       : gnd    :                   :         :           :                
+dbg_adr_i[6]                 : H21       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H24       :        :                   :         : 6         :                
+dbg_ewt_i                    : H25       : input  : 2.5 V             :         : 6         : N              
+iqmem_addr[19]               : H26       : input  : 2.5 V             :         : 6         : N              
+GND                          : H27       : gnd    :                   :         :           :                
+VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
+clk_i                        : J1        : input  : 2.5 V             :         : 1         : N              
+GND                          : J2        : gnd    :                   :         :           :                
+cpuid_i[13]                  : J3        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[17]                : J4        : output : 2.5 V             :         : 1         : N              
+boot_devsel_i                : J5        : input  : 2.5 V             :         : 1         : N              
+dbg_stb_i                    : J6        : input  : 2.5 V             :         : 1         : N              
+pic_int_i[0]                 : J7        : input  : 2.5 V             :         : 1         : N              
+VCCA3                        : J8        : power  :                   : 2.5V    :           :                
+VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
+cpuid_i[8]                   : J10       : input  : 2.5 V             :         : 8         : N              
+GND                          : J11       : gnd    :                   :         :           :                
+dbg_adr_i[14]                : J12       : input  : 2.5 V             :         : 8         : N              
+dahb_addr_o[13]              : J13       : output : 2.5 V             :         : 8         : N              
+dahb_wdata_o[8]              : J14       : output : 2.5 V             :         : 8         : N              
+dbg_dat_i[10]                : J15       : input  : 2.5 V             :         : 7         : N              
+dbg_dat_i[7]                 : J16       : input  : 2.5 V             :         : 7         : N              
+dbg_adr_i[10]                : J17       : input  : 2.5 V             :         : 7         : N              
+GND                          : J18       : gnd    :                   :         :           :                
+iqmem_wdata[25]              : J19       : input  : 2.5 V             :         : 7         : N              
+VCCD_PLL2                    : J20       : power  :                   : 1.2V    :           :                
+VCCA2                        : J21       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J23       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J25       :        :                   :         : 6         :                
+pm_clmode_i[3]               : J26       : input  : 2.5 V             :         : 6         : N              
+GND+                         : J27       :        :                   :         : 6         :                
+GND+                         : J28       :        :                   :         : 6         :                
+cpuid_i[14]                  : K1        : input  : 2.5 V             :         : 1         : N              
+cpuid_i[24]                  : K2        : input  : 2.5 V             :         : 1         : N              
+cpuid_i[10]                  : K3        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[16]                : K4        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : K5        : power  :                   : 2.5V    : 1         :                
+GND                          : K6        : gnd    :                   :         :           :                
+du_clk_en_o                  : K7        : output : 2.5 V             :         : 1         : N              
+dbg_dat_o[27]                : K8        : output : 2.5 V             :         : 1         : N              
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+VCCINT                       : K13       : power  :                   : 1.2V    :           :                
+GND                          : K14       : gnd    :                   :         :           :                
+VCCINT                       : K15       : power  :                   : 1.2V    :           :                
+GND                          : K16       : gnd    :                   :         :           :                
+VCCINT                       : K17       : power  :                   : 1.2V    :           :                
+GND                          : K18       : gnd    :                   :         :           :                
+VCCINT                       : K19       : power  :                   : 1.2V    :           :                
+GND                          : K20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K21       :        :                   :         : 6         :                
+iqmem_addr[21]               : K22       : input  : 2.5 V             :         : 6         : N              
+GND                          : K23       : gnd    :                   :         :           :                
+VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K27       :        :                   :         : 6         :                
+dbg_dat_i[21]                : K28       : input  : 2.5 V             :         : 6         : N              
+dbg_dat_o[3]                 : L1        : output : 2.5 V             :         : 1         : N              
+dbg_adr_i[1]                 : L2        : input  : 2.5 V             :         : 1         : N              
+dahb_addr_o[1]               : L3        : output : 2.5 V             :         : 1         : N              
+dahb_addr_o[5]               : L4        : output : 2.5 V             :         : 1         : N              
+dbg_dat_i[14]                : L5        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[24]                : L6        : output : 2.5 V             :         : 1         : N              
+dbg_dat_i[22]                : L7        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[25]                : L8        : output : 2.5 V             :         : 1         : N              
+GND                          : L9        : gnd    :                   :         :           :                
+VCCINT                       : L10       : power  :                   : 1.2V    :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCINT                       : L12       : power  :                   : 1.2V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.2V    :           :                
+GND                          : L17       : gnd    :                   :         :           :                
+VCCINT                       : L18       : power  :                   : 1.2V    :           :                
+GND                          : L19       : gnd    :                   :         :           :                
+VCCINT                       : L20       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L21       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L22       :        :                   :         : 6         :                
+dbg_dat_i[8]                 : L23       : input  : 2.5 V             :         : 6         : N              
+dbg_dat_i[31]                : L24       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L28       :        :                   :         : 6         :                
+dbg_adr_i[0]                 : M1        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[6]                 : M2        : output : 2.5 V             :         : 1         : N              
+cpuid_i[25]                  : M3        : input  : 2.5 V             :         : 1         : N              
+dbg_dat_o[18]                : M4        : output : 2.5 V             :         : 1         : N              
+cpuid_i[16]                  : M5        : input  : 2.5 V             :         : 1         : N              
+nSTATUS                      : M6        :        :                   :         : 1         :                
+dbg_adr_i[7]                 : M7        : input  : 2.5 V             :         : 1         : N              
+cpuid_i[5]                   : M8        : input  : 2.5 V             :         : 1         : N              
+VCCINT                       : M9        : power  :                   : 1.2V    :           :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+VCCINT                       : M13       : power  :                   : 1.2V    :           :                
+GND                          : M14       : gnd    :                   :         :           :                
+VCCINT                       : M15       : power  :                   : 1.2V    :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+VCCINT                       : M17       : power  :                   : 1.2V    :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.2V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M21       :        :                   :         : 6         :                
+MSEL2                        : M22       :        :                   :         : 6         :                
+iqmem_wdata[24]              : M23       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M25       :        :                   :         : 6         :                
+dbg_dat_i[30]                : M26       : input  : 2.5 V             :         : 6         : N              
+iqmem_addr[10]               : M27       : input  : 2.5 V             :         : 6         : N              
+dbg_adr_i[13]                : M28       : input  : 2.5 V             :         : 6         : N              
+VCCIO1                       : N1        : power  :                   : 2.5V    : 1         :                
+GND                          : N2        : gnd    :                   :         :           :                
+dbg_dat_o[7]                 : N3        : output : 2.5 V             :         : 1         : N              
+cpuid_i[11]                  : N4        : input  : 2.5 V             :         : 1         : N              
+VCCIO1                       : N5        : power  :                   : 2.5V    : 1         :                
+GND                          : N6        : gnd    :                   :         :           :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : N7        : input  : 2.5 V             :         : 1         : N              
+dbg_adr_i[3]                 : N8        : input  : 2.5 V             :         : 1         : N              
+GND                          : N9        : gnd    :                   :         :           :                
+VCCINT                       : N10       : power  :                   : 1.2V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCCINT                       : N12       : power  :                   : 1.2V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.2V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+VCCINT                       : N16       : power  :                   : 1.2V    :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.2V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.2V    :           :                
+dbg_we_i                     : N21       : input  : 2.5 V             :         : 6         : N              
+MSEL0                        : N22       :        :                   :         : 6         :                
+GND                          : N23       : gnd    :                   :         :           :                
+VCCIO6                       : N24       : power  :                   : 2.5V    : 6         :                
+dbg_adr_i[8]                 : N25       : input  : 2.5 V             :         : 6         : N              
+iqmem_addr[30]               : N26       : input  : 2.5 V             :         : 6         : N              
+GND                          : N27       : gnd    :                   :         :           :                
+VCCIO6                       : N28       : power  :                   : 2.5V    : 6         :                
+iqmem_addr[5]                : P1        : input  : 2.5 V             :         : 1         : N              
+cpuid_i[18]                  : P2        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : P3        : output : 2.5 V             :         : 1         : N              
+nCONFIG                      : P4        :        :                   :         : 1         :                
+TCK                          : P5        : input  :                   :         : 1         :                
+TDO                          : P6        : output :                   :         : 1         :                
+TDI                          : P7        : input  :                   :         : 1         :                
+TMS                          : P8        : input  :                   :         : 1         :                
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+GND                          : P14       : gnd    :                   :         :           :                
+VCCINT                       : P15       : power  :                   : 1.2V    :           :                
+GND                          : P16       : gnd    :                   :         :           :                
+VCCINT                       : P17       : power  :                   : 1.2V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.2V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+dahb_wdata_o[20]             : P21       : output : 2.5 V             :         : 5         : N              
+MSEL3                        : P22       :        :                   :         : 6         :                
+MSEL1                        : P23       :        :                   :         : 6         :                
+CONF_DONE                    : P24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P25       :        :                   :         : 6         :                
+dbg_wp_o[2]                  : P26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P27       :        :                   :         : 6         :                
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
+dahb_rdata_i[3]              : R1        : input  : 2.5 V             :         : 2         : N              
+dahb_wdata_o[11]             : R2        : output : 2.5 V             :         : 2         : N              
+dahb_rdata_i[0]              : R3        : input  : 2.5 V             :         : 2         : N              
+pm_stall_i                   : R4        : input  : 2.5 V             :         : 2         : N              
+iqmem_byte_en[1]             : R5        : input  : 2.5 V             :         : 2         : N              
+iqmem_wdata[21]              : R6        : input  : 2.5 V             :         : 2         : N              
+dbg_adr_i[2]                 : R7        : input  : 2.5 V             :         : 2         : N              
+nCE                          : R8        :        :                   :         : 1         :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.2V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.2V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+VCCINT                       : R14       : power  :                   : 1.2V    :           :                
+GND                          : R15       : gnd    :                   :         :           :                
+VCCINT                       : R16       : power  :                   : 1.2V    :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.2V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.2V    :           :                
+iqmem_addr[15]               : R21       : input  : 2.5 V             :         : 5         : N              
+dahb_wdata_o[12]             : R22       : output : 2.5 V             :         : 5         : N              
+dahb_wdata_o[3]              : R23       : output : 2.5 V             :         : 5         : N              
+dahb_wdata_o[13]             : R24       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R25       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R26       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R27       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R28       :        :                   :         : 5         :                
+VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
+GND                          : T2        : gnd    :                   :         :           :                
+iqmem_wdata[13]              : T3        : input  : 2.5 V             :         : 2         : N              
+dbg_stall_i                  : T4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : T5        : power  :                   : 2.5V    : 2         :                
+GND                          : T6        : gnd    :                   :         :           :                
+dahb_rdata_i[4]              : T7        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[23]             : T8        : input  : 2.5 V             :         : 2         : N              
+VCCINT                       : T9        : power  :                   : 1.2V    :           :                
+GND                          : T10       : gnd    :                   :         :           :                
+VCCINT                       : T11       : power  :                   : 1.2V    :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+VCCINT                       : T13       : power  :                   : 1.2V    :           :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCINT                       : T15       : power  :                   : 1.2V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCINT                       : T17       : power  :                   : 1.2V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.2V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T21       :        :                   :         : 5         :                
+iqmem_wdata[22]              : T22       : input  : 2.5 V             :         : 5         : N              
+GND                          : T23       : gnd    :                   :         :           :                
+VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T25       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T26       :        :                   :         : 5         :                
+GND                          : T27       : gnd    :                   :         :           :                
+VCCIO5                       : T28       : power  :                   : 2.5V    : 5         :                
+dahb_rdata_i[24]             : U1        : input  : 2.5 V             :         : 2         : N              
+cpuid_i[19]                  : U2        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[13]             : U3        : input  : 2.5 V             :         : 2         : N              
+dbg_dat_i[1]                 : U4        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[19]             : U5        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[1]              : U6        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[20]             : U7        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[18]             : U8        : input  : 2.5 V             :         : 2         : N              
+GND                          : U9        : gnd    :                   :         :           :                
+VCCINT                       : U10       : power  :                   : 1.2V    :           :                
+GND                          : U11       : gnd    :                   :         :           :                
+VCCINT                       : U12       : power  :                   : 1.2V    :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.2V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.2V    :           :                
+GND                          : U17       : gnd    :                   :         :           :                
+VCCINT                       : U18       : power  :                   : 1.2V    :           :                
+GND                          : U19       : gnd    :                   :         :           :                
+VCCINT                       : U20       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U21       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U22       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U23       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U24       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U25       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U26       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U27       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U28       :        :                   :         : 5         :                
+dahb_rdata_i[30]             : V1        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[7]              : V2        : input  : 2.5 V             :         : 2         : N              
+dbg_dat_o[8]                 : V3        : output : 2.5 V             :         : 2         : N              
+iqmem_wdata[17]              : V4        : input  : 2.5 V             :         : 2         : N              
+dahb_wdata_o[5]              : V5        : output : 2.5 V             :         : 2         : N              
+cpuid_i[6]                   : V6        : input  : 2.5 V             :         : 2         : N              
+dbg_dat_o[5]                 : V7        : output : 2.5 V             :         : 2         : N              
+dahb_rdata_i[5]              : V8        : input  : 2.5 V             :         : 2         : N              
+VCCINT                       : V9        : power  :                   : 1.2V    :           :                
+GND                          : V10       : gnd    :                   :         :           :                
+VCCINT                       : V11       : power  :                   : 1.2V    :           :                
+GND                          : V12       : gnd    :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.2V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.2V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+VCCINT                       : V17       : power  :                   : 1.2V    :           :                
+GND                          : V18       : gnd    :                   :         :           :                
+VCCINT                       : V19       : power  :                   : 1.2V    :           :                
+GND                          : V20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V22       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V23       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V24       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V25       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V26       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V27       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V28       :        :                   :         : 5         :                
+dahb_rdata_i[22]             : W1        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[9]              : W2        : input  : 2.5 V             :         : 2         : N              
+dbg_dat_o[9]                 : W3        : output : 2.5 V             :         : 2         : N              
+cpuid_i[30]                  : W4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : W5        : power  :                   : 2.5V    : 2         :                
+GND                          : W6        : gnd    :                   :         :           :                
+dahb_rdata_i[25]             : W7        : input  : 2.5 V             :         : 2         : N              
+cpuid_i[4]                   : W8        : input  : 2.5 V             :         : 2         : N              
+GND                          : W9        : gnd    :                   :         :           :                
+VCCINT                       : W10       : power  :                   : 1.2V    :           :                
+GND                          : W11       : gnd    :                   :         :           :                
+VCCINT                       : W12       : power  :                   : 1.2V    :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.2V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+VCCINT                       : W16       : power  :                   : 1.2V    :           :                
+GND                          : W17       : gnd    :                   :         :           :                
+VCCINT                       : W18       : power  :                   : 1.2V    :           :                
+GND                          : W19       : gnd    :                   :         :           :                
+VCCINT                       : W20       : power  :                   : 1.2V    :           :                
+iqmem_addr[18]               : W21       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W22       :        :                   :         : 5         :                
+GND                          : W23       : gnd    :                   :         :           :                
+VCCIO5                       : W24       : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W25       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W26       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W27       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W28       :        :                   :         : 5         :                
+du_clk_i                     : Y1        : input  : 2.5 V             :         : 2         : N              
+rf_clk_i                     : Y2        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[28]             : Y3        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[26]             : Y4        : input  : 2.5 V             :         : 2         : N              
+cpuid_i[12]                  : Y5        : input  : 2.5 V             :         : 2         : N              
+dahb_rdata_i[31]             : Y6        : input  : 2.5 V             :         : 2         : N              
+cpuid_i[15]                  : Y7        : input  : 2.5 V             :         : 2         : N              
+VCCA1                        : Y8        : power  :                   : 2.5V    :           :                
+VCCD_PLL1                    : Y9        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :         : 3         :                
+GND                          : Y11       : gnd    :                   :         :           :                
+dahb_wdata_o[18]             : Y12       : output : 2.5 V             :         : 3         : N              
+dahb_wdata_o[27]             : Y13       : output : 2.5 V             :         : 3         : N              
+iqmem_addr[11]               : Y14       : input  : 2.5 V             :         : 3         : N              
+iqmem_addr[6]                : Y15       : input  : 2.5 V             :         : 3         : N              
+dbg_wp_o[8]                  : Y16       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :         : 4         :                
+GND                          : Y18       : gnd    :                   :         :           :                
+dbg_is_o[1]                  : Y19       : output : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : Y20       : power  :                   : 1.2V    :           :                
+VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y22       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y23       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y24       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y25       :        :                   :         : 5         :                
+iqmem_addr[27]               : Y26       : input  : 2.5 V             :         : 5         : N              
+GND+                         : Y27       :        :                   :         : 5         :                
+GND+                         : Y28       :        :                   :         : 5         :                

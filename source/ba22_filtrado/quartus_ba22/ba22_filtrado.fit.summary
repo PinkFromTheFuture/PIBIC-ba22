@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jul 15 15:02:06 2013
+Quartus II 64-Bit Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : ba22_filtrado
+Top-level Entity Name : bench
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 17,413 / 114,480 ( 15 % )
+    Total combinational functions : 15,966 / 114,480 ( 14 % )
+    Dedicated logic registers : 3,758 / 114,480 ( 3 % )
+Total registers : 3758
+Total pins : 18 / 529 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 1,361,984 / 3,981,312 ( 34 % )
+Embedded Multiplier 9-bit elements : 8 / 532 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )

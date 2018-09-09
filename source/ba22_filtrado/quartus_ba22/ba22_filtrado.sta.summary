@@ -1,0 +1,185 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_LENTO'
+Slack : -30.665
+TNS   : -68399.598
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -26.767
+TNS   : -46034.195
+
+Type  : Slow 1200mV 85C Model Setup 'c_clgen:i_clgen|pm_clk_o'
+Slack : -12.947
+TNS   : -893.410
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : -3.540
+TNS   : -288.337
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_LENTO'
+Slack : -1.755
+TNS   : -12.025
+
+Type  : Slow 1200mV 85C Model Hold 'c_clgen:i_clgen|pm_clk_o'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'c_clgen:i_clgen|pm_clk_o'
+Slack : -4.339
+TNS   : -315.866
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_LENTO'
+Slack : -3.208
+TNS   : -1088.834
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : -0.520
+TNS   : -152.965
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_LENTO'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'c_clgen:i_clgen|pm_clk_o'
+Slack : 4.532
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_LENTO'
+Slack : -3.000
+TNS   : -6072.264
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -5098.078
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'c_clgen:i_clgen|pm_clk_o'
+Slack : -1.285
+TNS   : -93.805
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_LENTO'
+Slack : -28.142
+TNS   : -62683.297
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -24.536
+TNS   : -42100.765
+
+Type  : Slow 1200mV 0C Model Setup 'c_clgen:i_clgen|pm_clk_o'
+Slack : -11.802
+TNS   : -812.999
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -3.294
+TNS   : -306.413
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_LENTO'
+Slack : -1.716
+TNS   : -11.632
+
+Type  : Slow 1200mV 0C Model Hold 'c_clgen:i_clgen|pm_clk_o'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'c_clgen:i_clgen|pm_clk_o'
+Slack : -3.818
+TNS   : -278.156
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_LENTO'
+Slack : -2.772
+TNS   : -906.737
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : -0.552
+TNS   : -173.325
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_LENTO'
+Slack : 0.164
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'c_clgen:i_clgen|pm_clk_o'
+Slack : 4.093
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_LENTO'
+Slack : -3.000
+TNS   : -6052.772
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -5081.094
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'c_clgen:i_clgen|pm_clk_o'
+Slack : -1.285
+TNS   : -93.805
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_LENTO'
+Slack : -14.773
+TNS   : -32837.856
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -12.779
+TNS   : -21850.524
+
+Type  : Fast 1200mV 0C Model Setup 'c_clgen:i_clgen|pm_clk_o'
+Slack : -5.819
+TNS   : -400.308
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : -1.834
+TNS   : -198.708
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_LENTO'
+Slack : -0.968
+TNS   : -6.867
+
+Type  : Fast 1200mV 0C Model Hold 'c_clgen:i_clgen|pm_clk_o'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'c_clgen:i_clgen|pm_clk_o'
+Slack : -1.859
+TNS   : -135.327
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_LENTO'
+Slack : -1.336
+TNS   : -434.174
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : -0.211
+TNS   : -64.613
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_LENTO'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'c_clgen:i_clgen|pm_clk_o'
+Slack : 2.290
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -4344.797
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_LENTO'
+Slack : -1.000
+TNS   : -4181.595
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'c_clgen:i_clgen|pm_clk_o'
+Slack : -1.000
+TNS   : -73.000
+
+------------------------------------------------------------

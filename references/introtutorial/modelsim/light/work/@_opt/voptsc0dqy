@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\questasim_6.6b\examples
+T_opt
+Z1 V9Cb61oB5>P6:7`ocKhoFQ0
+Z2 04 1 4 work t fast 0
+Z3 =2-062436fef405-511ea1b2-2f1-aec
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.6b;45
+Z7 dC:\questasim_6.6b\examples
+vlight
+Z8 IgaYOhC@OTl4:KjG9<Ia[i1
+Z9 Vnc]V67j82F;?jZeFm3JGe2
+Z10 dC:\Dropbox\Bolsista Eduardo\introtutorial\modelsim\light
+Z11 w1360955977
+Z12 8C:/Dropbox/Bolsista Eduardo/introtutorial/light.v
+Z13 FC:/Dropbox/Bolsista Eduardo/introtutorial/light.v
+L0 1
+Z14 OE;L;6.6b;45
+r1
+31
+Z15 !s102 -nocovercells
+Z16 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z17 !s100 CLjn<OU<z^UB^EfQ]DAm32
+!s85 0
+vt
+Z18 I6H@6H[e^Y]<HhF>P9lL7D3
+Z19 VOPCP_2WL3VHMFLcgoGMHg3
+R10
+Z20 w1360961948
+Z21 8C:/Dropbox/Bolsista Eduardo/introtutorial/modelsim/light/lightHDL.v
+Z22 FC:/Dropbox/Bolsista Eduardo/introtutorial/modelsim/light/lightHDL.v
+L0 2
+R14
+r1
+31
+Z23 o-work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z24 !s100 H;=`LUfcPA[N]A69?;4g91
+!s85 0

@@ -1,0 +1,257 @@
+monitor: bem interessante, acompanha tudo no processador.. 
+o que interessa é o end_sim, para saber se chegou ao final. simplesmente acender um led quando acabar.
+
+tem que estudar ocmo montou a estrutura do testbench, que tá baseada na pasta src/sim
+pra isso tem que adaptar o modulo top, pra te risnais de I/O que vem da placa (clock e o reset)
+
+o mais simples seria comentar todos os displays	
+
+
+o scritp eh a base de tudo. tudo que ele compla no script eu posso usar.
+(come,cando da linha 83...)
+
+tem que alterar o bench.v (faz backup e altera o novo)
+
+
+eh importante ver tambem como ele ta fazendo pra inicializar a ram
+
+
+baixar o compiador deles pra rodar o makefile e poder trocar o rom.verilog, tambem conhecido como ba22-pic.verilog, pra trocar pelo nosso codigo que tá em .c e poder jogar ele no testbench que vmaos criar pra colocar na placa
+
+
+
+
+
+::::::::::::::::::::
+
+continuar tirando o que não é necessário dos módulos e entender os clocks.
+trabalhamos muito no bench.v e nossa atenção deve ser voltada para fazer o nosso gerador de clock pra ver o que ele tá fazendo:
+pm_clk (o clock dividido por 4)
+
+verificar o pm_stall e o pm_stalled 
+
+depois começar a entrar dentro dos modulos, como o que que o qmen controller faz (só um agregador de sinais, nem tem processo dentro dele) - já está resolvido, não precisa adaptar esse componenete.
+clk_gen: vamos fazer um.
+
+ahb_slave_behavorial: parece que do jeito que está pode ser sintetizado, mas não se sabe o que faz porque é imenso.
+	a principio a unica coisa não sintetizavel dentro deles são os displays
+	
+	o monitor é oque mais vai ter que alterar, porque baiscamente vamos ter que construir um monitor que reporte pros leds ou pra outro lugar
+
+
+	
+	ahb_slave_behavorial:
+	
+	$display
+	$time
+	$finish
+	$random
+	
+	
+	
+	
+	
+///////////////////////////////////////////////////////////////////////////////
+// AHB SLAVE instantiation/assignments
+/////////////////////////////////////////////////////////////////////////////// que sta em bench.v
+
+comentamos e retiramos as referencias do iahb, ficando com o dahb.
+
+isso significa que a mamória sintetizavel que veio com o ba22 tem 16k.
+ele grava da rom na ram com o initram32.v
+
+
+
+
+------
+
+o que fazer agora:
+
+o initram em verilog. ou seja, uma máquina de estado (FSM) que carrega de uma memória pra outra
+
+exemplo
+//-------------------------------------
+// reading instruction data from a file
+//-------------------------------------
+
+
+initram32 #(.DELAY (`DELAY ))
+  u_initram32(
+    .clk (clk_load),
+    .start_load (start_load),
+  --  .addr (initram_addr),
+ --   .data (initram_data),  //32 bit
+  --  .byte_en (initram_byte_en),  // 4bit //deve ser 1111 para 4 bytes
+    .load_done (load_done)
+);
+
+
+// use for writing enable of initram data to sram
+always @(posedge clk_load)
+begin
+   if (start_load)
+      initram_stb <= 1'b1;
+   else if (load_done)
+      initram_stb <= 1'b0; //quando acaba desabilita o wrtie enable da ram
+end
+
+assign clk_mux = (!load_done) ? clk_load : clk; //chaveia o clock
+
+
+
+tem que fazer uma outra maquina de estados com oo a que esta em TESBENCH INITIALIZATION NO BENch.v pra não deixar o processador ligar antes de carregar a ram (como um boot loader)
+
+
+---
+
+olha ro bench.v na parte de instanciacao dos modulso que escrevi hoje
+
+-------------------------------------
+
+original: 	endereco 5364 (8364/2=2091) -> 151781376 == 1001000011000000000000000000 - 18 zeros no final byte enable = 1110
+nosso:		endereco 5364 (8364/2=2091) -> 592896 	 == 0000000010010000110000000000 - 10 zeros no final byte enable = 1111
+
+trocando manualmente  na rom não alterou o resultado... a mesma coisa de sempre ao final.
+
+tudo explode quando chega em 659455us no nosso, que corresponde a 41935 no original.
+nesse momento TODOS os sinais são iguais! :/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arquivos modificados para serem sintetizveis: (primeiro modificico o arquivo, em seguida testo os efeitos rodando o script. Só coloco aqui se tenho certeza de que não alterou a execução. está em ordem)
+
+em teoria são 7 arquivos que ainda precisam de modificação
+	ahb_slave_behavioral.v:
+		só comentei os delays e $displays. 
+		O $random foi mudado pra 0. 
+		Seria interesante comentar os condicionais que deixaram de ter sentido depois
+	
+	bench.v: 
+		todo o bloco de codigo de "Testbench initialization" que na verdade é um bloco initial, não sintetizavel foi comentado.
+		mudança:    
+			// assign #`OUTPUT_DELAY dahb_grant_i = dahb_grant_i_nd;
+			// assign #`OUTPUT_DELAY dahb_ready_i = dahb_ready_i_nd;
+			// assign #`OUTPUT_DELAY dahb_resp_i  = dahb_resp_i_nd;
+			// assign #`OUTPUT_DELAY dahb_rdata_i = dahb_rdata_i_nd;
+			assign  dahb_grant_i = dahb_grant_i_nd;
+			assign	dahb_ready_i = dahb_ready_i_nd;
+			assign  dahb_resp_i  = dahb_resp_i_nd;
+			assign  dahb_rdata_i = dahb_rdata_i_nd;
+			--
+			// assign #`OUTPUT_DELAY dwb_ack_i = dwb_ack_i_nd;
+			// assign #`OUTPUT_DELAY dwb_dat_i = dwb_dat_i_nd;
+			assign dwb_ack_i = dwb_ack_i_nd;
+			assign dwb_dat_i = dwb_dat_i_nd;
+		todo o bloco de codigo de "interrupt activity" que na verdade é um bloco initial, não sintetizavel foi comentado.		
+		comentado os $displays
+		Seria interesante comentar os condicionais que deixaram de ter sentido depois
+	
+	c_clgen:
+		comentados dois blocos initial
+		*******************************************************************************
+		*******************************************************************************
+		estudar o codigo pra saber se é sintetizavel ou não: 
+			always
+			begin:ref_clk_gen_blk
+				ref_clk <= 1'b0 ;
+				#(ref_clk_per/4.000) ;
+			//        #(2.5);
+				ref_clk <= 1'b1 ;
+				#(ref_clk_per/4.000) ;
+			//        #(2.5);
+			end
+		*******************************************************************************
+		*******************************************************************************
+		Seria interesante comentar os condicionais que deixaram de ter sentido depois
+	
+	monitor.v:
+	comentado bloco initial
+	
+	
+	
+	sram32.v: 
+	tdpram64_32.v:
+	qmem_ctrl.v:
+		parece ser sintetizaveis (exceto pelos 2 primeiros que usam delays, por algum motivo, nos assigns)
+		
+		
+		
+		atualemente estou trabalhando no modulo c_clgen, o gerador de clocks que deve ser reescrito.
+		utilizaremos duas entradas: uma o clock da placa e outra um botao para o reset.
+		para simulação pode ser feito um modulo em um nível superior apenas para inicalizar estas entradas (como já é feito nos arquivos originais do ba22)
+		
+		passo seguinte:
+			verifiar o pm_stalled_i e o pm_stall_o, que são usados, mas o que eles fazem?
+			pm_ tem haver com Power Management. São sinais usados para, por exemplo, desligar o BA22, aparentemente. fonte: hardware specification manual:
+			pm_stall_i In High Request signal to change the CPU power state
+			pm_stalled_o Out High Handshaking signal that confirms CPU readiness for the power down mode
+			BA22_PM_IMPLEMENTED Power management unit
+			pm_clk_i Power management clock – must always be running at the maximum system clock speed
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	tem que definir o clock_load (pode ser deixar ele no mesmo clock geral) e o start load (pulso unico logo no inicio. provavelmente tem que notar pra que ele fique em cima)
+	
+	pic_int_i : é referente ao programmable interrupt controller (pic) da placa. no testbench original havia apenas um bloco de código que gerava alguns interrupts, aparentemente apenas para testar as interrupções, sme alterar o comprtamento do hardware gerado.
+		foi constadado que no final da execução do oringinal: 239625ns  *********Number of External Interrupts:   3 
+		ao tirar essas 3 interrupções, constata-se que:
+			Number of AHB WRITE is:  350 	
+		passa a ser:
+			Number of AHB WRITE is:  341 	
+			
+				aparentement eo que ele faz é ver se as interrupções estão funcionando
+
+	tem que descobrir oq ue siginfica os erros que estão aparecendo quando roadmos o scipt:
+	# .main_pane.structure.interior.cs.body.struct
+# ** Error: C:/altera/11.0/quartus/eda/sim_lib/altera_primitives.v(276): $hold( posedge clk &&& sloaddata:2737 ps, asdata:2766 ps, 244 ps );
+#    Time: 2766 ps  Iteration: 1  Instance: /bench/i_ba22_top_qmem/i_ba22_top/i_cpu_i_ba22_mac_reg_reg_mul_4_
+		
+	a atenção deve ser voltada também para o módulo do monitor, que tem que ser preparado para a sintese.
+	
+	
+	
+	resolvi o pulso do start load, mas não está exatamente igual.
+seguir vendo com 

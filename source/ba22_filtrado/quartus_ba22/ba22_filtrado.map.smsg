@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at c_clgen.v(27): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at bench.v(251): always construct contains both blocking and non-blocking assignments
+Warning (10273): Verilog HDL warning at ahb_slave_behavioral.v(90): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at ahb_slave_behavioral.v(92): extended using "x" or "z"
+Warning (10268): Verilog HDL information at ahb_slave_behavioral.v(282): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ahb_slave_behavioral.v(372): always construct contains both blocking and non-blocking assignments

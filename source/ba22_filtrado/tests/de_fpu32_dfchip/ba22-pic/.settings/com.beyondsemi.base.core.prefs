@@ -1,0 +1,4 @@
+com.beyondsemi.target.cpu.endianness=big
+com.beyondsemi.toolchain.target=com.beyondsemi.toolchain.gnu.ba.elf.base
+com.beyonsdemi.target.cpu.model=BA22
+eclipse.preferences.version=1

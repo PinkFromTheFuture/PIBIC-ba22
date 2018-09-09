@@ -1,0 +1,6 @@
+
+State Machine - |bench|initram32:u_initram32|state
+Name state.s0 state.s_done state.s1 
+state.s0 0 0 0 
+state.s1 1 0 1 
+state.s_done 1 1 0 

@@ -1,0 +1,40 @@
+monitor: bem interessante, acompanha tudo no processador.. 
+o que interessa é o end_sim, para saber se chegou ao final. simplesmente acender um led quando acabar.
+
+tem que estudar ocmo montou a estrutura do testbench, que tá baseada na pasta src/sim
+pra isso tem que adaptar o modulo top, pra te risnais de I/O que vem da placa (clock e o reset)
+
+o mais simples seria comentar todos os displays	
+
+
+o scritp eh a base de tudo. tudo que ele compla no script eu posso usar.
+(come,cando da linha 83...)
+
+tem que alterar o bench.v (faz backup e altera o novo)
+
+
+eh importante ver tambem como ele ta fazendo pra inicializar a ram
+
+
+baixar o compiador deles pra rodar o makefile e poder trocar o rom.verilog, tambem conhecido como ba22-pic.verilog, pra trocar pelo nosso codigo que tá em .c e poder jogar ele no testbench que vmaos criar pra colocar na placa
+
+
+
+
+
+::::::::::::::::::::
+
+continuar tirando o que não é necessário dos módulos e entender os clocks.
+trabalhamos muito no bench.v e nossa atenção deve ser voltada para fazer o nosso gerador de clock pra ver o que ele tá fazendo:
+pm_clk (o clock dividido por 4)
+
+verificar o pm_stall e o pm_stalled 
+
+depois começar a entrar dentro dos modulos, como o que que o qmen controller faz (só um agregador de sinais, nem tem processo dentro dele) - já está resolvido, não precisa adaptar esse componenete.
+clk_gen: vamos fazer um.
+
+ahb_slave_behavorial: parece que do jeito que está pode ser sintetizado, mas não se sabe o que faz porque é imenso.
+	a principio a unica coisa não sintetizavel dentro deles são os displays
+	
+	o monitor é oque mais vai ter que alterar, porque baiscamente vamos ter que construir um monitor que reporte pros leds ou pra outro lugar	
+

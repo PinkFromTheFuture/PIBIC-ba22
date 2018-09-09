@@ -1,0 +1,73 @@
+Altera SOPC Builder Version 11.00 Build 157
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2013.02.22 17:18:27 (*) mk_custom_sdk starting
+# 2013.02.22 17:18:27 (*) Reading project C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system.ptf.
+
+# 2013.02.22 17:18:27 (*) Finding all CPUs
+# 2013.02.22 17:18:27 (*) Finding all available components
+# 2013.02.22 17:18:27 (*) Reading C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/.sopc_builder/install.ptf
+
+# 2013.02.22 17:18:27 (*) Found 76 components
+
+# 2013.02.22 17:18:28 (*) Finding all peripherals
+
+# 2013.02.22 17:18:28 (*) Finding software components
+
+# 2013.02.22 17:18:28 (*) (Legacy SDK Generation Skipped)
+# 2013.02.22 17:18:28 (*) (All TCL Script Generation Skipped)
+# 2013.02.22 17:18:28 (*) (No Libraries Built)
+# 2013.02.22 17:18:28 (*) (Contents Generation Skipped)
+# 2013.02.22 17:18:28 (*) mk_custom_sdk finishing
+# 2013.02.22 17:18:28 (*) Starting generation for system: nios_system.
+
+.
+.
+..
+.
+
+# 2013.02.22 17:18:29 (*) Running Generator Program for cpu_0
+
+# 2013.02.22 17:18:31 (*) Starting Nios II generation
+# 2013.02.22 17:18:32 (*)   Checking for plaintext license.
+# 2013.02.22 17:18:58 (*)   Plaintext license not found.
+# 2013.02.22 17:18:58 (*)   No license required to generate encrypted Nios II/e.
+# 2013.02.22 17:18:58 (*)   Getting CPU configuration settings
+# 2013.02.22 17:18:58 (*)   Elaborating CPU configuration settings
+# 2013.02.22 17:18:58 (*)   Creating all objects for CPU
+# 2013.02.22 17:19:00 (*)   Generating HDL from CPU objects
+# 2013.02.22 17:19:00 (*)   Creating plain-text HDL
+
+# 2013.02.22 17:19:02 (*) Done Nios II generation
+
+# 2013.02.22 17:19:02 (*) Running Generator Program for onchip_memory2_0
+
+# 2013.02.22 17:19:03 (*) Running Generator Program for Switches
+
+# 2013.02.22 17:19:04 (*) Running Generator Program for LEDs
+
+# 2013.02.22 17:19:04 (*) Running Generator Program for jtag_uart_0
+
+
+# 2013.02.22 17:19:05 (*) Making arbitration and system (top) modules.
+
+# 2013.02.22 17:19:08 (*) Generating Quartus symbol for top level: nios_system
+# 2013.02.22 17:19:08 (*) Generating Symbol C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system.bsf
+
+# 2013.02.22 17:19:08 (*) Creating command-line system-generation script: C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system_generation_script
+
+# 2013.02.22 17:19:08 (*) Running setup for HDL simulator: modelsim
+
+
+# 2013.02.22 17:19:08 (*) Completed generation for system: nios_system.
+# 2013.02.22 17:19:08 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system.ptf 
+  System HDL Model : C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system.v 
+  System Generation Script : C:/Dropbox/Bolsista Eduardo/sopc_builder_tutorial/nios_system_generation_script 
+
+# 2013.02.22 17:19:08 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

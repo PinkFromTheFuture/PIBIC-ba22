@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ba22_filtrado">
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|ba22_top:i_ba22_top|ram_dq_32_0:i_cpu_reg_rf|altsyncram:ix51175z16888" CBX_FILE_NAME="altsyncram_11j2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_31_0|tdpram8:u_tdpram8_15_8|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_31_0|tdpram8:u_tdpram8_31_24|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_63_32|tdpram8:u_tdpram8_23_16|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_31_0|tdpram8:u_tdpram8_7_0|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ROM_ba22:u_rom|altsyncram:Mux31_rtl_0" CBX_FILE_NAME="altsyncram_l101.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|ba22_top:i_ba22_top|ram_dq_160_0:i_cpu_i_ba22_du_merged|altsyncram:ix61212z62647" CBX_FILE_NAME="altsyncram_c3k2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|ba22_top:i_ba22_top|ram_dq_39_0:i_cpu_i_ba22_du_i_trp_fifo|altsyncram:ix63289z33575" CBX_FILE_NAME="altsyncram_anj2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_31_0|tdpram8:u_tdpram8_23_16|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_63_32|tdpram8:u_tdpram8_15_8|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_63_32|tdpram8:u_tdpram8_31_24|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|ba22_top:i_ba22_top|ram_dq_32_0:i_cpu_reg_rf|altsyncram:ix56310z16887" CBX_FILE_NAME="altsyncram_11j2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bench|ba22_top_qmem:i_ba22_top_qmem|tdpram64_32:u_dpram64_32|tdpram32:u_tdpram32_63_32|tdpram8:u_tdpram8_7_0|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_6lq1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

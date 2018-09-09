@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Apr 12 18:57:50 2013
+Quartus II 32-bit Version : 12.1 Build 243 01/31/2013 SP 1 SJ Web Edition
+Revision Name : ba22_FPGA
+Top-level Entity Name : ba22_top_qmem
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 18,629 / 114,480 ( 16 % )
+    Total combinational functions : 16,879 / 114,480 ( 15 % )
+    Dedicated logic registers : 4,865 / 114,480 ( 4 % )
+Total registers : 4865
+Total pins : 345 / 529 ( 65 % )
+Total virtual pins : 0
+Total memory bits : 837,696 / 3,981,312 ( 21 % )
+Embedded Multiplier 9-bit elements : 8 / 532 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,139 @@
+     45825ns  RAM data at address 000020b0 is: 000020b4
+     46725ns  Write data to RAM; address : 00003f30 data : 00000000
+     46845ns  Write data to RAM; address : 00003f34 data : 000020b4
+     46905ns  Write data to RAM; address : 00003f38 data : 000020b4
+     46965ns  Write data to RAM; address : 00003f3c data : 00000000
+     47025ns  Write data to RAM; address : 00003f40 data : 000020b4
+     47085ns  Write data to RAM; address : 00003f44 data : 000020b4
+     47145ns  Write data to RAM; address : 00003f48 data : 00000000
+     47205ns  Write data to RAM; address : 00003f4c data : 00000133
+     47265ns  Write data to RAM; address : 00003f50 data : 00000000
+     47325ns  Write data to RAM; address : 00003f54 data : 00000000
+     47385ns  Write data to RAM; address : 00003f58 data : 00000000
+     47445ns  Write data to RAM; address : 00003f5c data : 00000000
+     47505ns  Write data to RAM; address : 00003f60 data : 00000000
+     47565ns  Write data to RAM; address : 00003f64 data : 00000000
+     47625ns  Write data to RAM; address : 00003f68 data : 00000000
+     47865ns  Write data to RAM; address : 00003f6c data : 00008005
+     47925ns  Write data to RAM; address : 00003f70 data : 00000000
+     47985ns  Write data to RAM; address : 00003f74 data : 00000000
+     49605ns  RAM data at address 00003f6c is: 00002061
+     49665ns  RAM data at address 00003f70 is: 00008005
+     49725ns  RAM data at address 00003f74 is: 00000000
+     50325ns  RAM data at address 00003f34 is: 0000a0b4
+     50385ns  RAM data at address 00003f38 is: 000020b4
+     50445ns  RAM data at address 00003f3c is: 000020b4
+     50505ns  RAM data at address 00003f40 is: 00000000
+     50565ns  RAM data at address 00003f44 is: 000020b4
+     50625ns  RAM data at address 00003f48 is: 000020b4
+     50685ns  RAM data at address 00003f4c is: 00000000
+     50745ns  RAM data at address 00003f50 is: 00000133
+     50805ns  RAM data at address 00003f54 is: 00000000
+     50865ns  RAM data at address 00003f58 is: 00000000
+     50925ns  RAM data at address 00003f5c is: 00000000
+     50985ns  RAM data at address 00003f60 is: 00000000
+     51045ns  RAM data at address 00003f64 is: 00000000
+     51105ns  RAM data at address 00003f68 is: 00000000
+     51165ns  RAM data at address 00003f30 is: 00003ff8
+     51765ns  Write data to RAM; address : 00003f30 data : 00000000
+     51885ns  Write data to RAM; address : 00003f34 data : 000020b4
+     51945ns  Write data to RAM; address : 00003f38 data : 000020b4
+     52005ns  Write data to RAM; address : 00003f3c data : 00000000
+     52065ns  Write data to RAM; address : 00003f40 data : 000020b4
+     52125ns  Write data to RAM; address : 00003f44 data : 000020b4
+     52185ns  Write data to RAM; address : 00003f48 data : 00000000
+     52245ns  Write data to RAM; address : 00003f4c data : 00000133
+     52305ns  Write data to RAM; address : 00003f50 data : 00000000
+     52365ns  Write data to RAM; address : 00003f54 data : 00000000
+     52425ns  Write data to RAM; address : 00003f58 data : 00000000
+     52485ns  Write data to RAM; address : 00003f5c data : 00000000
+     52545ns  Write data to RAM; address : 00003f60 data : 00000000
+     52605ns  Write data to RAM; address : 00003f64 data : 00000000
+     52665ns  Write data to RAM; address : 00003f68 data : 00000000
+     52905ns  Write data to RAM; address : 00003f6c data : 00008005
+     52965ns  Write data to RAM; address : 00003f70 data : 00000000
+     53025ns  Write data to RAM; address : 00003f74 data : 00000000
+     54645ns  RAM data at address 00003f6c is: 00002061
+     54705ns  RAM data at address 00003f70 is: 00008005
+     54765ns  RAM data at address 00003f74 is: 00000000
+     55365ns  RAM data at address 00003f34 is: 0000a0b4
+     55425ns  RAM data at address 00003f38 is: 000020b4
+     55485ns  RAM data at address 00003f3c is: 000020b4
+     55545ns  RAM data at address 00003f40 is: 00000000
+     55605ns  RAM data at address 00003f44 is: 000020b4
+     55665ns  RAM data at address 00003f48 is: 000020b4
+     55725ns  RAM data at address 00003f4c is: 00000000
+     55785ns  RAM data at address 00003f50 is: 00000133
+     55845ns  RAM data at address 00003f54 is: 00000000
+     55905ns  RAM data at address 00003f58 is: 00000000
+     55965ns  RAM data at address 00003f5c is: 00000000
+     56025ns  RAM data at address 00003f60 is: 00000000
+     56085ns  RAM data at address 00003f64 is: 00000000
+     56145ns  RAM data at address 00003f68 is: 00000000
+     56205ns  RAM data at address 00003f30 is: 00003ff8
+     56805ns  Write data to RAM; address : 00003f30 data : 00000000
+     56925ns  Write data to RAM; address : 00003f34 data : 000020b4
+     56985ns  Write data to RAM; address : 00003f38 data : 000020b4
+     57045ns  Write data to RAM; address : 00003f3c data : 00000000
+     57105ns  Write data to RAM; address : 00003f40 data : 000020b4
+     57165ns  Write data to RAM; address : 00003f44 data : 000020b4
+     57225ns  Write data to RAM; address : 00003f48 data : 00000000
+     57285ns  Write data to RAM; address : 00003f4c data : 00000133
+     57345ns  Write data to RAM; address : 00003f50 data : 00000000
+     57405ns  Write data to RAM; address : 00003f54 data : 00000000
+     57465ns  Write data to RAM; address : 00003f58 data : 00000000
+     57525ns  Write data to RAM; address : 00003f5c data : 00000000
+     57585ns  Write data to RAM; address : 00003f60 data : 00000000
+     57645ns  Write data to RAM; address : 00003f64 data : 00000000
+     57705ns  Write data to RAM; address : 00003f68 data : 00000000
+     57945ns  Write data to RAM; address : 00003f6c data : 00008005
+     58005ns  Write data to RAM; address : 00003f70 data : 00000000
+     58065ns  Write data to RAM; address : 00003f74 data : 00000000
+     59685ns  RAM data at address 00003f6c is: 00002061
+     59745ns  RAM data at address 00003f70 is: 00008005
+     59805ns  RAM data at address 00003f74 is: 00000000
+     60405ns  RAM data at address 00003f34 is: 0000a0b4
+     60465ns  RAM data at address 00003f38 is: 000020b4
+     60525ns  RAM data at address 00003f3c is: 000020b4
+     60585ns  RAM data at address 00003f40 is: 00000000
+     60645ns  RAM data at address 00003f44 is: 000020b4
+     60705ns  RAM data at address 00003f48 is: 000020b4
+     60765ns  RAM data at address 00003f4c is: 00000000
+     60825ns  RAM data at address 00003f50 is: 00000133
+     60885ns  RAM data at address 00003f54 is: 00000000
+     60945ns  RAM data at address 00003f58 is: 00000000
+     61005ns  RAM data at address 00003f5c is: 00000000
+     61065ns  RAM data at address 00003f60 is: 00000000
+     61125ns  RAM data at address 00003f64 is: 00000000
+     61185ns  RAM data at address 00003f68 is: 00000000
+     61245ns  RAM data at address 00003f30 is: 00003ff8
+     61845ns  RAM data at address 000020b4 is: 48656c6c
+     62565ns  RAM data at address 000020b5 is: 48656c6c
+     63285ns  RAM data at address 000020b6 is: 48656c6c
+     64005ns  RAM data at address 000020b7 is: 48656c6c
+     64725ns  RAM data at address 000020b8 is: 6f2c2057
+     65445ns  RAM data at address 000020b9 is: 6f2c2057
+     66165ns  RAM data at address 000020ba is: 6f2c2057
+     66885ns  RAM data at address 000020bb is: 6f2c2057
+     67605ns  RAM data at address 000020bc is: 6f726c64
+     68325ns  RAM data at address 000020bd is: 6f726c64
+     69045ns  RAM data at address 000020be is: 6f726c64
+     69765ns  RAM data at address 000020bf is: 6f726c64
+     70485ns  RAM data at address 000020c0 is: 210a0000
+     71205ns  RAM data at address 000020c1 is: 210a0000
+     71925ns  RAM data at address 000020c2 is: 210a0000
+    229185ns  RAM data at address 000020b4 is: 48656c6c
+    229905ns  RAM data at address 000020b5 is: 48656c6c
+    230625ns  RAM data at address 000020b6 is: 48656c6c
+    231345ns  RAM data at address 000020b7 is: 48656c6c
+    232065ns  RAM data at address 000020b8 is: 6f2c2057
+    232785ns  RAM data at address 000020b9 is: 6f2c2057
+    233505ns  RAM data at address 000020ba is: 6f2c2057
+    234225ns  RAM data at address 000020bb is: 6f2c2057
+    234945ns  RAM data at address 000020bc is: 6f726c64
+    235665ns  RAM data at address 000020bd is: 6f726c64
+    236385ns  RAM data at address 000020be is: 6f726c64
+    237105ns  RAM data at address 000020bf is: 6f726c64
+    237825ns  RAM data at address 000020c0 is: 210a0000
+    238545ns  RAM data at address 000020c1 is: 210a0000
+    239265ns  RAM data at address 000020c2 is: 210a0000

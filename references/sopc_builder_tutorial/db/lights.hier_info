@@ -1,0 +1,13 @@
+|lights
+SW[0] => ~NO_FANOUT~
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+KEY[0] => ~NO_FANOUT~
+CLOCK_50 => ~NO_FANOUT~
+
+
