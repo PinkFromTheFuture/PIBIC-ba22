@@ -1,4 +1,4 @@
-# Development of embedded software for ACC audio decoding
+# Development of embedded software for AAC audio decoding
 
 Oriented by the Prof. Dr. Ricardo Jacobi, for the PIBIC 2012/2013
 
